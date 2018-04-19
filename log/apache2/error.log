@@ -1,0 +1,52 @@
+[Mon Feb 19 15:25:03.384195 2018] [mpm_prefork:notice] [pid 1354] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Mon Feb 19 15:25:03.384237 2018] [core:notice] [pid 1354] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Feb 19 16:17:17.706148 2018] [mpm_prefork:notice] [pid 1354] AH00169: caught SIGTERM, shutting down
+[Tue Feb 20 15:20:21.821108 2018] [mpm_prefork:notice] [pid 1411] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Feb 20 15:20:21.876277 2018] [core:notice] [pid 1411] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Feb 20 16:35:47.578050 2018] [mpm_prefork:notice] [pid 1411] AH00169: caught SIGTERM, shutting down
+[Tue Feb 20 20:57:45.605886 2018] [mpm_prefork:notice] [pid 1341] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Feb 20 20:57:45.622914 2018] [core:notice] [pid 1341] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Feb 20 21:06:14.179864 2018] [mpm_prefork:notice] [pid 1341] AH00169: caught SIGTERM, shutting down
+[Wed Feb 21 09:49:20.412678 2018] [mpm_prefork:notice] [pid 1384] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Wed Feb 21 09:49:20.462843 2018] [core:notice] [pid 1384] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 21 09:53:04.914863 2018] [mpm_prefork:notice] [pid 1384] AH00169: caught SIGTERM, shutting down
+[Wed Feb 21 09:57:40.682470 2018] [mpm_prefork:notice] [pid 1370] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Wed Feb 21 09:57:40.734566 2018] [core:notice] [pid 1370] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 21 11:25:56.361643 2018] [mpm_prefork:notice] [pid 1370] AH00169: caught SIGTERM, shutting down
+[Wed Feb 21 13:38:31.032500 2018] [mpm_prefork:notice] [pid 1390] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Wed Feb 21 13:38:31.087462 2018] [core:notice] [pid 1390] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 21 13:55:37.348088 2018] [mpm_prefork:notice] [pid 1390] AH00169: caught SIGTERM, shutting down
+[Wed Feb 21 15:26:37.847620 2018] [mpm_prefork:notice] [pid 1393] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Wed Feb 21 15:26:37.883704 2018] [core:notice] [pid 1393] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 21 18:37:17.581377 2018] [mpm_prefork:notice] [pid 1393] AH00169: caught SIGTERM, shutting down
+[Wed Feb 21 19:55:00.077510 2018] [mpm_prefork:notice] [pid 1363] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Wed Feb 21 19:55:00.092907 2018] [core:notice] [pid 1363] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 22 00:40:17.741079 2018] [mpm_prefork:notice] [pid 1412] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Feb 22 00:40:17.795576 2018] [core:notice] [pid 1412] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 22 00:41:17.008224 2018] [mpm_prefork:notice] [pid 1412] AH00169: caught SIGTERM, shutting down
+[Thu Feb 22 09:13:21.742422 2018] [mpm_prefork:notice] [pid 1406] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Feb 22 09:13:21.776770 2018] [core:notice] [pid 1406] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Feb 22 09:33:55.972324 2018] [mpm_prefork:notice] [pid 1406] AH00169: caught SIGTERM, shutting down
+[Sat Feb 24 06:46:56.722212 2018] [mpm_prefork:notice] [pid 1381] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Sat Feb 24 06:46:56.735518 2018] [core:notice] [pid 1381] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Feb 24 13:37:12.039346 2018] [mpm_prefork:notice] [pid 1381] AH00169: caught SIGTERM, shutting down
+[Tue Feb 27 11:42:33.105597 2018] [mpm_prefork:notice] [pid 1396] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Tue Feb 27 11:42:33.156114 2018] [core:notice] [pid 1396] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Feb 27 14:30:22.349529 2018] [mpm_prefork:notice] [pid 1396] AH00169: caught SIGTERM, shutting down
+[Wed Feb 28 13:14:47.618228 2018] [mpm_prefork:notice] [pid 1411] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Wed Feb 28 13:14:47.677579 2018] [core:notice] [pid 1411] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Feb 28 16:05:08.219027 2018] [mpm_prefork:notice] [pid 1411] AH00169: caught SIGTERM, shutting down
+[Thu Mar 01 09:08:31.100145 2018] [mpm_prefork:notice] [pid 1418] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Mar 01 09:08:31.119166 2018] [core:notice] [pid 1418] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 01 10:20:27.726676 2018] [mpm_prefork:notice] [pid 1418] AH00169: caught SIGTERM, shutting down
+[Fri Mar 02 23:23:11.207926 2018] [mpm_prefork:notice] [pid 1404] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Fri Mar 02 23:23:11.269702 2018] [core:notice] [pid 1404] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Mar 02 23:30:52.666941 2018] [mpm_prefork:notice] [pid 1404] AH00169: caught SIGTERM, shutting down
+[Mon Mar 05 13:40:15.324119 2018] [mpm_prefork:notice] [pid 1383] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Mon Mar 05 13:40:15.465901 2018] [core:notice] [pid 1383] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Mar 05 13:43:12.589244 2018] [mpm_prefork:notice] [pid 1383] AH00169: caught SIGTERM, shutting down
+[Mon Mar 05 14:08:44.858563 2018] [mpm_prefork:notice] [pid 1363] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Mon Mar 05 14:08:44.877986 2018] [core:notice] [pid 1363] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Mar 05 20:10:18.208371 2018] [mpm_prefork:notice] [pid 1363] AH00169: caught SIGTERM, shutting down
+[Thu Apr 19 14:12:07.333106 2018] [mpm_prefork:notice] [pid 1411] AH00163: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g configured -- resuming normal operations
+[Thu Apr 19 14:12:07.375856 2018] [core:notice] [pid 1411] AH00094: Command line: '/usr/sbin/apache2'

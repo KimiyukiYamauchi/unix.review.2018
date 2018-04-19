@@ -1,0 +1,188 @@
+[Mon Feb 19 15:25:03.383096 2018] [ssl:info] [pid 1354] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Mon Feb 19 15:25:03.383888 2018] [ssl:warn] [pid 1354] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Feb 19 15:25:03.383928 2018] [ssl:warn] [pid 1354] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 19 15:25:03.383942 2018] [ssl:info] [pid 1354] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Tue Feb 20 15:20:14.207075 2018] [ssl:info] [pid 1397] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Tue Feb 20 15:20:14.298958 2018] [ssl:warn] [pid 1397] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 20 15:20:14.299635 2018] [ssl:warn] [pid 1397] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 15:20:14.299650 2018] [ssl:info] [pid 1397] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Tue Feb 20 15:20:21.806180 2018] [ssl:info] [pid 1411] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Tue Feb 20 15:20:21.806858 2018] [ssl:warn] [pid 1411] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 20 15:20:21.806894 2018] [ssl:warn] [pid 1411] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 15:20:21.806908 2018] [ssl:info] [pid 1411] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Tue Feb 20 20:57:37.518494 2018] [ssl:info] [pid 1338] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Tue Feb 20 20:57:37.624143 2018] [ssl:warn] [pid 1338] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 20 20:57:37.624220 2018] [ssl:warn] [pid 1338] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 20:57:37.624234 2018] [ssl:info] [pid 1338] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Tue Feb 20 20:57:45.593214 2018] [ssl:info] [pid 1341] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Tue Feb 20 20:57:45.593890 2018] [ssl:warn] [pid 1341] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 20 20:57:45.593926 2018] [ssl:warn] [pid 1341] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 20 20:57:45.593940 2018] [ssl:info] [pid 1341] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 09:49:13.222008 2018] [ssl:info] [pid 1372] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 09:49:13.370332 2018] [ssl:warn] [pid 1372] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 09:49:13.370410 2018] [ssl:warn] [pid 1372] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 09:49:13.370424 2018] [ssl:info] [pid 1372] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 09:49:20.398215 2018] [ssl:info] [pid 1384] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 09:49:20.398893 2018] [ssl:warn] [pid 1384] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 09:49:20.398931 2018] [ssl:warn] [pid 1384] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 09:49:20.398945 2018] [ssl:info] [pid 1384] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 09:57:33.173924 2018] [ssl:info] [pid 1369] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 09:57:33.277625 2018] [ssl:warn] [pid 1369] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 09:57:33.277784 2018] [ssl:warn] [pid 1369] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 09:57:33.277806 2018] [ssl:info] [pid 1369] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 09:57:40.667651 2018] [ssl:info] [pid 1370] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 09:57:40.668310 2018] [ssl:warn] [pid 1370] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 09:57:40.668348 2018] [ssl:warn] [pid 1370] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 09:57:40.668362 2018] [ssl:info] [pid 1370] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 13:38:23.722558 2018] [ssl:info] [pid 1378] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 13:38:23.830405 2018] [ssl:warn] [pid 1378] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 13:38:23.830700 2018] [ssl:warn] [pid 1378] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 13:38:23.830797 2018] [ssl:info] [pid 1378] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 13:38:30.980010 2018] [ssl:info] [pid 1390] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 13:38:30.981004 2018] [ssl:warn] [pid 1390] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 13:38:30.981106 2018] [ssl:warn] [pid 1390] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 13:38:30.981122 2018] [ssl:info] [pid 1390] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 15:26:29.267275 2018] [ssl:info] [pid 1389] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 15:26:29.406182 2018] [ssl:warn] [pid 1389] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 15:26:29.406250 2018] [ssl:warn] [pid 1389] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 15:26:29.406264 2018] [ssl:info] [pid 1389] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 15:26:37.828491 2018] [ssl:info] [pid 1393] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 15:26:37.829220 2018] [ssl:warn] [pid 1393] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 15:26:37.829264 2018] [ssl:warn] [pid 1393] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 15:26:37.829279 2018] [ssl:info] [pid 1393] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 19:54:52.867908 2018] [ssl:info] [pid 1362] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 19:54:52.991213 2018] [ssl:warn] [pid 1362] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 19:54:52.991331 2018] [ssl:warn] [pid 1362] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 19:54:52.991374 2018] [ssl:info] [pid 1362] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 21 19:55:00.060827 2018] [ssl:info] [pid 1363] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 21 19:55:00.061476 2018] [ssl:warn] [pid 1363] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 21 19:55:00.061512 2018] [ssl:warn] [pid 1363] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 21 19:55:00.061525 2018] [ssl:info] [pid 1363] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Feb 22 00:40:10.528722 2018] [ssl:info] [pid 1398] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Feb 22 00:40:10.605946 2018] [ssl:warn] [pid 1398] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Feb 22 00:40:10.606036 2018] [ssl:warn] [pid 1398] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 22 00:40:10.606058 2018] [ssl:info] [pid 1398] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Feb 22 00:40:17.715361 2018] [ssl:info] [pid 1412] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Feb 22 00:40:17.716045 2018] [ssl:warn] [pid 1412] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Feb 22 00:40:17.716083 2018] [ssl:warn] [pid 1412] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 22 00:40:17.716097 2018] [ssl:info] [pid 1412] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Feb 22 09:13:14.680901 2018] [ssl:info] [pid 1386] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Feb 22 09:13:14.730831 2018] [ssl:warn] [pid 1386] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Feb 22 09:13:14.730919 2018] [ssl:warn] [pid 1386] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 22 09:13:14.730939 2018] [ssl:info] [pid 1386] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Feb 22 09:13:21.729938 2018] [ssl:info] [pid 1406] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Feb 22 09:13:21.730652 2018] [ssl:warn] [pid 1406] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Feb 22 09:13:21.730689 2018] [ssl:warn] [pid 1406] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 22 09:13:21.730703 2018] [ssl:info] [pid 1406] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Sat Feb 24 06:46:43.548991 2018] [ssl:info] [pid 1373] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Sat Feb 24 06:46:43.697862 2018] [ssl:warn] [pid 1373] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Feb 24 06:46:43.697935 2018] [ssl:warn] [pid 1373] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 24 06:46:43.697949 2018] [ssl:info] [pid 1373] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Sat Feb 24 06:46:56.709108 2018] [ssl:info] [pid 1381] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Sat Feb 24 06:46:56.709808 2018] [ssl:warn] [pid 1381] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Feb 24 06:46:56.709845 2018] [ssl:warn] [pid 1381] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 24 06:46:56.709946 2018] [ssl:info] [pid 1381] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Sat Feb 24 07:07:04.176129 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP Notice:  Undefined property: stdClass::$privider_name in /var/www/html/wp2/wp-content/themes/mytheme.yo/functions.php on line 22
+[Sat Feb 24 07:07:04.176270 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP Stack trace:
+[Sat Feb 24 07:07:04.176324 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   1. {main}() /var/www/html/wp2/index.php:0
+[Sat Feb 24 07:07:04.176343 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   2. require() /var/www/html/wp2/index.php:17
+[Sat Feb 24 07:07:04.176361 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   3. require_once() /var/www/html/wp2/wp-blog-header.php:19
+[Sat Feb 24 07:07:04.176380 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   4. include() /var/www/html/wp2/wp-includes/template-loader.php:74
+[Sat Feb 24 07:07:04.176397 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   5. the_excerpt() /var/www/html/wp2/wp-content/themes/mytheme.yo/index.php:10
+[Sat Feb 24 07:07:04.176415 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   6. get_the_excerpt() /var/www/html/wp2/wp-includes/post-template.php:362
+[Sat Feb 24 07:07:04.176433 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   7. apply_filters() /var/www/html/wp2/wp-includes/post-template.php:397
+[Sat Feb 24 07:07:04.176451 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   8. WP_Hook->apply_filters() /var/www/html/wp2/wp-includes/plugin.php:203
+[Sat Feb 24 07:07:04.176468 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   9. wp_trim_excerpt() /var/www/html/wp2/wp-includes/class-wp-hook.php:288
+[Sat Feb 24 07:07:04.176486 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  10. apply_filters() /var/www/html/wp2/wp-includes/formatting.php:3313
+[Sat Feb 24 07:07:04.176504 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  11. WP_Hook->apply_filters() /var/www/html/wp2/wp-includes/plugin.php:203
+[Sat Feb 24 07:07:04.176522 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  12. WP_Embed->autoembed() /var/www/html/wp2/wp-includes/class-wp-hook.php:286
+[Sat Feb 24 07:07:04.176561 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  13. preg_replace_callback() /var/www/html/wp2/wp-includes/class-wp-embed.php:393
+[Sat Feb 24 07:07:04.176585 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  14. WP_Embed->autoembed_callback() /var/www/html/wp2/wp-includes/class-wp-embed.php:393
+[Sat Feb 24 07:07:04.176603 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  15. WP_Embed->shortcode() /var/www/html/wp2/wp-includes/class-wp-embed.php:411
+[Sat Feb 24 07:07:04.176620 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  16. wp_oembed_get() /var/www/html/wp2/wp-includes/class-wp-embed.php:270
+[Sat Feb 24 07:07:04.176637 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  17. WP_oEmbed->get_html() /var/www/html/wp2/wp-includes/embed.php:98
+[Sat Feb 24 07:07:04.176655 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  18. WP_oEmbed->data2html() /var/www/html/wp2/wp-includes/class-oembed.php:412
+[Sat Feb 24 07:07:04.176671 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  19. apply_filters() /var/www/html/wp2/wp-includes/class-oembed.php:686
+[Sat Feb 24 07:07:04.176688 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  20. WP_Hook->apply_filters() /var/www/html/wp2/wp-includes/plugin.php:203
+[Sat Feb 24 07:07:04.176705 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  21. ytwrapper() /var/www/html/wp2/wp-includes/class-wp-hook.php:286
+[Sat Feb 24 07:07:06.893917 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP Notice:  Undefined property: stdClass::$privider_name in /var/www/html/wp2/wp-content/themes/mytheme.yo/functions.php on line 22
+[Sat Feb 24 07:07:06.893992 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP Stack trace:
+[Sat Feb 24 07:07:06.894068 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   1. {main}() /var/www/html/wp2/index.php:0
+[Sat Feb 24 07:07:06.894087 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   2. require() /var/www/html/wp2/index.php:17
+[Sat Feb 24 07:07:06.894104 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   3. require_once() /var/www/html/wp2/wp-blog-header.php:19
+[Sat Feb 24 07:07:06.894121 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   4. include() /var/www/html/wp2/wp-includes/template-loader.php:74
+[Sat Feb 24 07:07:06.894138 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   5. the_excerpt() /var/www/html/wp2/wp-content/themes/mytheme.yo/index.php:10
+[Sat Feb 24 07:07:06.894155 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   6. get_the_excerpt() /var/www/html/wp2/wp-includes/post-template.php:362
+[Sat Feb 24 07:07:06.894173 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   7. apply_filters() /var/www/html/wp2/wp-includes/post-template.php:397
+[Sat Feb 24 07:07:06.894191 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   8. WP_Hook->apply_filters() /var/www/html/wp2/wp-includes/plugin.php:203
+[Sat Feb 24 07:07:06.894207 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP   9. wp_trim_excerpt() /var/www/html/wp2/wp-includes/class-wp-hook.php:288
+[Sat Feb 24 07:07:06.894224 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  10. apply_filters() /var/www/html/wp2/wp-includes/formatting.php:3313
+[Sat Feb 24 07:07:06.894242 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  11. WP_Hook->apply_filters() /var/www/html/wp2/wp-includes/plugin.php:203
+[Sat Feb 24 07:07:06.894261 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  12. WP_Embed->autoembed() /var/www/html/wp2/wp-includes/class-wp-hook.php:286
+[Sat Feb 24 07:07:06.894278 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  13. preg_replace_callback() /var/www/html/wp2/wp-includes/class-wp-embed.php:393
+[Sat Feb 24 07:07:06.894295 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  14. WP_Embed->autoembed_callback() /var/www/html/wp2/wp-includes/class-wp-embed.php:393
+[Sat Feb 24 07:07:06.894313 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  15. WP_Embed->shortcode() /var/www/html/wp2/wp-includes/class-wp-embed.php:411
+[Sat Feb 24 07:07:06.894329 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  16. wp_oembed_get() /var/www/html/wp2/wp-includes/class-wp-embed.php:270
+[Sat Feb 24 07:07:06.894346 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  17. WP_oEmbed->get_html() /var/www/html/wp2/wp-includes/embed.php:98
+[Sat Feb 24 07:07:06.894362 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  18. WP_oEmbed->data2html() /var/www/html/wp2/wp-includes/class-oembed.php:412
+[Sat Feb 24 07:07:06.894378 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  19. apply_filters() /var/www/html/wp2/wp-includes/class-oembed.php:686
+[Sat Feb 24 07:07:06.894394 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  20. WP_Hook->apply_filters() /var/www/html/wp2/wp-includes/plugin.php:203
+[Sat Feb 24 07:07:06.894410 2018] [:error] [pid 1640] [client 192.168.33.1:55808] PHP  21. ytwrapper() /var/www/html/wp2/wp-includes/class-wp-hook.php:286
+[Sat Feb 24 07:57:54.017388 2018] [:error] [pid 2212] [client 192.168.33.1:56546] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/html/wp2/wp-content/themes/mytheme.yo/functions.php on line 23, referer: http://vccw.yo/wp2/wp-admin/post.php?post=21&action=edit
+[Sat Feb 24 07:57:55.770151 2018] [:error] [pid 2155] [client 192.168.33.1:56548] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/html/wp2/wp-content/themes/mytheme.yo/functions.php on line 23, referer: http://vccw.yo/wp2/wp-admin/post.php?post=21&action=edit
+[Tue Feb 27 11:42:21.441027 2018] [ssl:info] [pid 1380] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Tue Feb 27 11:42:21.812726 2018] [ssl:warn] [pid 1380] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 27 11:42:21.812792 2018] [ssl:warn] [pid 1380] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 11:42:21.812806 2018] [ssl:info] [pid 1380] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Tue Feb 27 11:42:33.090473 2018] [ssl:info] [pid 1396] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Tue Feb 27 11:42:33.091188 2018] [ssl:warn] [pid 1396] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 27 11:42:33.091225 2018] [ssl:warn] [pid 1396] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 27 11:42:33.091239 2018] [ssl:info] [pid 1396] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 28 13:14:39.221509 2018] [ssl:info] [pid 1393] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 28 13:14:39.323446 2018] [ssl:warn] [pid 1393] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 28 13:14:39.326718 2018] [ssl:warn] [pid 1393] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 28 13:14:39.326748 2018] [ssl:info] [pid 1393] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Wed Feb 28 13:14:47.603169 2018] [ssl:info] [pid 1411] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Wed Feb 28 13:14:47.603849 2018] [ssl:warn] [pid 1411] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 28 13:14:47.603886 2018] [ssl:warn] [pid 1411] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 28 13:14:47.603900 2018] [ssl:info] [pid 1411] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Mar 01 09:08:23.495241 2018] [ssl:info] [pid 1417] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Mar 01 09:08:23.585232 2018] [ssl:warn] [pid 1417] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Mar 01 09:08:23.585307 2018] [ssl:warn] [pid 1417] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 01 09:08:23.585322 2018] [ssl:info] [pid 1417] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Mar 01 09:08:31.076849 2018] [ssl:info] [pid 1418] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Mar 01 09:08:31.077523 2018] [ssl:warn] [pid 1418] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Mar 01 09:08:31.077561 2018] [ssl:warn] [pid 1418] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 01 09:08:31.077576 2018] [ssl:info] [pid 1418] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Fri Mar 02 23:23:02.230331 2018] [ssl:info] [pid 1403] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Fri Mar 02 23:23:02.371142 2018] [ssl:warn] [pid 1403] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Mar 02 23:23:02.371218 2018] [ssl:warn] [pid 1403] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 02 23:23:02.371233 2018] [ssl:info] [pid 1403] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Fri Mar 02 23:23:11.180108 2018] [ssl:info] [pid 1404] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Fri Mar 02 23:23:11.182365 2018] [ssl:warn] [pid 1404] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Mar 02 23:23:11.182431 2018] [ssl:warn] [pid 1404] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 02 23:23:11.182445 2018] [ssl:info] [pid 1404] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Mon Mar 05 13:40:06.640931 2018] [ssl:info] [pid 1369] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Mon Mar 05 13:40:06.711624 2018] [ssl:warn] [pid 1369] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 05 13:40:06.711691 2018] [ssl:warn] [pid 1369] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 05 13:40:06.711706 2018] [ssl:info] [pid 1369] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Mon Mar 05 13:40:15.308101 2018] [ssl:info] [pid 1383] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Mon Mar 05 13:40:15.308774 2018] [ssl:warn] [pid 1383] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 05 13:40:15.308810 2018] [ssl:warn] [pid 1383] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 05 13:40:15.308825 2018] [ssl:info] [pid 1383] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Mon Mar 05 14:08:36.954932 2018] [ssl:info] [pid 1353] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Mon Mar 05 14:08:37.132387 2018] [ssl:warn] [pid 1353] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 05 14:08:37.132454 2018] [ssl:warn] [pid 1353] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 05 14:08:37.132469 2018] [ssl:info] [pid 1353] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Mon Mar 05 14:08:44.844962 2018] [ssl:info] [pid 1363] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Mon Mar 05 14:08:44.845662 2018] [ssl:warn] [pid 1363] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Mar 05 14:08:44.845810 2018] [ssl:warn] [pid 1363] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 05 14:08:44.845825 2018] [ssl:info] [pid 1363] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Apr 19 14:11:57.770802 2018] [ssl:info] [pid 1395] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Apr 19 14:11:57.980285 2018] [ssl:warn] [pid 1395] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Apr 19 14:11:57.980367 2018] [ssl:warn] [pid 1395] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 19 14:11:57.980387 2018] [ssl:info] [pid 1395] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key
+[Thu Apr 19 14:12:07.302189 2018] [ssl:info] [pid 1411] AH01914: Configuring server vccw.yo:443 for SSL protocol
+[Thu Apr 19 14:12:07.302878 2018] [ssl:warn] [pid 1411] AH01906: vccw.yo:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Apr 19 14:12:07.302916 2018] [ssl:warn] [pid 1411] AH01909: vccw.yo:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 19 14:12:07.302985 2018] [ssl:info] [pid 1411] AH02568: Certificate and private key vccw.yo:443:0 configured from /etc/apache2/ssl/vccw.yo.crt and /etc/apache2/ssl/vccw.yo.key

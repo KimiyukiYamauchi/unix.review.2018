@@ -1,0 +1,1281 @@
+Feb 19 06:25:14 vccw CRON[2212]: pam_unix(cron:session): session closed for user root
+Feb 19 06:34:53 vccw sshd[2066]: Received disconnect from 10.0.2.2 port 39300:11: disconnected by user
+Feb 19 06:34:53 vccw sshd[2066]: Disconnected from 10.0.2.2 port 39300
+Feb 19 06:34:53 vccw sshd[2029]: pam_unix(sshd:session): session closed for user vagrant
+Feb 19 06:34:53 vccw systemd-logind[995]: Removed session 3.
+Feb 19 06:39:01 vccw CRON[2462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 06:39:02 vccw CRON[2462]: pam_unix(cron:session): session closed for user root
+Feb 19 06:59:56 vccw sshd[2504]: Accepted publickey for vagrant from 10.0.2.2 port 39564 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 19 06:59:56 vccw sshd[2504]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 19 06:59:56 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 19 06:59:56 vccw systemd-logind[995]: New session 9 of user vagrant.
+Feb 19 07:09:01 vccw CRON[2597]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 07:09:01 vccw CRON[2597]: pam_unix(cron:session): session closed for user root
+Feb 19 07:16:46 vccw sshd[2583]: Received disconnect from 10.0.2.2 port 39564:11: disconnected by user
+Feb 19 07:16:46 vccw sshd[2583]: Disconnected from 10.0.2.2 port 39564
+Feb 19 07:16:46 vccw sshd[2504]: pam_unix(sshd:session): session closed for user vagrant
+Feb 19 07:16:46 vccw systemd-logind[995]: Removed session 9.
+Feb 19 07:17:01 vccw CRON[2704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 19 07:17:01 vccw CRON[2704]: pam_unix(cron:session): session closed for user root
+Feb 19 07:17:09 vccw sshd[2707]: Accepted publickey for vagrant from 10.0.2.2 port 39952 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 19 07:17:09 vccw sshd[2707]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 19 07:17:09 vccw systemd-logind[995]: New session 12 of user vagrant.
+Feb 19 07:17:09 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 19 07:17:14 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 19 07:17:14 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:06 vccw systemd-logind[929]: New seat seat0.
+Feb 20 15:20:06 vccw systemd-logind[929]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 20 15:20:06 vccw systemd-logind[929]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 20 15:20:06 vccw systemd-logind[929]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 20 15:20:10 vccw sshd[1191]: Server listening on 0.0.0.0 port 22.
+Feb 20 15:20:10 vccw sshd[1191]: Server listening on :: port 22.
+Feb 20 15:20:13 vccw sshd[1364]: Accepted publickey for vagrant from 10.0.2.2 port 45182 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 20 15:20:13 vccw sshd[1364]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 20 15:20:13 vccw systemd-logind[929]: New session 1 of user vagrant.
+Feb 20 15:20:13 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 20 15:20:18 vccw sshd[1505]: Accepted publickey for vagrant from 10.0.2.2 port 45184 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 20 15:20:18 vccw sshd[1505]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 20 15:20:18 vccw systemd-logind[929]: New session 2 of user vagrant.
+Feb 20 15:20:33 vccw sshd[1364]: pam_unix(sshd:session): session closed for user vagrant
+Feb 20 15:20:33 vccw systemd-logind[929]: Removed session 1.
+Feb 20 15:20:33 vccw sshd[1366]: Connection reset by 10.0.2.2 port 45178 [preauth]
+Feb 20 15:20:34 vccw sshd[1421]: Connection reset by 10.0.2.2 port 45180 [preauth]
+Feb 20 15:20:34 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:34 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:34 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:34 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:34 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:34 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:35 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:35 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:35 vccw sshd[1191]: Received SIGHUP; restarting.
+Feb 20 15:20:35 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:35 vccw sshd[1191]: Server listening on 0.0.0.0 port 22.
+Feb 20 15:20:35 vccw sshd[1191]: Server listening on :: port 22.
+Feb 20 15:20:37 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:37 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:37 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:37 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:37 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:40 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:40 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:40 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:40 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:40 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:40 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:40 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:40 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:40 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:41 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 15:20:41 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 15:20:41 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 15:20:41 vccw sshd[1505]: pam_unix(sshd:session): session closed for user vagrant
+Feb 20 15:20:41 vccw systemd-logind[929]: Removed session 2.
+Feb 20 15:39:01 vccw CRON[2064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 20 15:39:02 vccw CRON[2064]: pam_unix(cron:session): session closed for user root
+Feb 20 16:09:01 vccw CRON[2106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 20 16:09:02 vccw CRON[2106]: pam_unix(cron:session): session closed for user root
+Feb 20 16:17:01 vccw CRON[2148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 20 16:17:01 vccw CRON[2148]: pam_unix(cron:session): session closed for user root
+Feb 20 16:35:39 vccw sshd[2151]: Accepted publickey for vagrant from 10.0.2.2 port 45602 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 20 16:35:39 vccw sshd[2151]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 20 16:35:39 vccw systemd-logind[929]: New session 6 of user vagrant.
+Feb 20 16:35:40 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 20 16:35:44 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 16:35:44 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 16:35:44 vccw sshd[2151]: pam_unix(sshd:session): session closed for user vagrant
+Feb 20 20:57:30 vccw systemd-logind[948]: New seat seat0.
+Feb 20 20:57:30 vccw systemd-logind[948]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 20 20:57:30 vccw systemd-logind[948]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 20 20:57:30 vccw systemd-logind[948]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 20 20:57:34 vccw sshd[1175]: Server listening on 0.0.0.0 port 22.
+Feb 20 20:57:34 vccw sshd[1175]: Server listening on :: port 22.
+Feb 20 20:57:38 vccw sshd[1329]: Accepted publickey for vagrant from 10.0.2.2 port 42374 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 20 20:57:38 vccw sshd[1329]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 20 20:57:38 vccw systemd-logind[948]: New session 1 of user vagrant.
+Feb 20 20:57:38 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 20 20:57:43 vccw sshd[1339]: Connection reset by 10.0.2.2 port 42370 [preauth]
+Feb 20 20:57:43 vccw sshd[1424]: Accepted publickey for vagrant from 10.0.2.2 port 42376 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 20 20:57:43 vccw sshd[1389]: Connection reset by 10.0.2.2 port 42372 [preauth]
+Feb 20 20:57:43 vccw sshd[1424]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 20 20:57:43 vccw systemd-logind[948]: New session 2 of user vagrant.
+Feb 20 21:05:51 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:51 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:51 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:51 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:51 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:52 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:52 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:52 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:53 vccw sshd[1175]: Received SIGHUP; restarting.
+Feb 20 21:05:53 vccw sshd[1175]: Server listening on 0.0.0.0 port 22.
+Feb 20 21:05:53 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:53 vccw sshd[1175]: Server listening on :: port 22.
+Feb 20 21:05:54 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:54 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:54 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:54 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:54 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:55 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:55 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:55 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:55 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:55 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:55 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:55 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:58 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:58 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:58 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:58 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:05:58 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 20 21:05:58 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 20 21:05:58 vccw sshd[1329]: pam_unix(sshd:session): session closed for user vagrant
+Feb 20 21:05:58 vccw sshd[1424]: pam_unix(sshd:session): session closed for user vagrant
+Feb 20 21:05:58 vccw systemd-logind[948]: Removed session 2.
+Feb 20 21:06:06 vccw sshd[2009]: Accepted publickey for vagrant from 10.0.2.2 port 42378 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 20 21:06:06 vccw sshd[2009]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 20 21:06:06 vccw systemd-logind[948]: New session 3 of user vagrant.
+Feb 20 21:06:11 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 20 21:06:11 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:05 vccw systemd-logind[960]: New seat seat0.
+Feb 21 09:49:05 vccw systemd-logind[960]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 21 09:49:05 vccw systemd-logind[960]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 21 09:49:05 vccw systemd-logind[960]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 21 09:49:10 vccw sshd[1177]: Server listening on 0.0.0.0 port 22.
+Feb 21 09:49:10 vccw sshd[1177]: Server listening on :: port 22.
+Feb 21 09:49:13 vccw sshd[1362]: Accepted publickey for vagrant from 10.0.2.2 port 35902 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 09:49:13 vccw sshd[1362]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 09:49:13 vccw systemd-logind[960]: New session 1 of user vagrant.
+Feb 21 09:49:13 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 09:49:18 vccw sshd[1503]: Accepted publickey for vagrant from 10.0.2.2 port 35904 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 09:49:18 vccw sshd[1503]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 09:49:18 vccw systemd-logind[960]: New session 2 of user vagrant.
+Feb 21 09:49:30 vccw sshd[1362]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 09:49:30 vccw systemd-logind[960]: Removed session 1.
+Feb 21 09:49:31 vccw sshd[1366]: Connection reset by 10.0.2.2 port 35898 [preauth]
+Feb 21 09:49:31 vccw sshd[1422]: Connection reset by 10.0.2.2 port 35900 [preauth]
+Feb 21 09:49:32 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:32 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:32 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:32 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:32 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:33 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:33 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:33 vccw sshd[1177]: Received SIGHUP; restarting.
+Feb 21 09:49:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:34 vccw sshd[1177]: Server listening on 0.0.0.0 port 22.
+Feb 21 09:49:34 vccw sshd[1177]: Server listening on :: port 22.
+Feb 21 09:49:35 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:35 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:35 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:35 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:35 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:39 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:39 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:49:39 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:49:39 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:49:39 vccw sshd[1503]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 09:49:39 vccw systemd-logind[960]: Removed session 2.
+Feb 21 09:52:57 vccw sshd[2047]: Accepted publickey for vagrant from 10.0.2.2 port 36026 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 09:52:57 vccw sshd[2047]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 09:52:57 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 09:52:57 vccw systemd-logind[960]: New session 3 of user vagrant.
+Feb 21 09:53:01 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:53:01 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:26 vccw systemd-logind[919]: New seat seat0.
+Feb 21 09:57:26 vccw systemd-logind[919]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 21 09:57:26 vccw systemd-logind[919]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 21 09:57:26 vccw systemd-logind[919]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 21 09:57:30 vccw sshd[1189]: Server listening on 0.0.0.0 port 22.
+Feb 21 09:57:30 vccw sshd[1189]: Server listening on :: port 22.
+Feb 21 09:57:32 vccw sshd[1337]: Accepted publickey for vagrant from 10.0.2.2 port 56570 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 09:57:32 vccw sshd[1337]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 09:57:32 vccw systemd-logind[919]: New session 1 of user vagrant.
+Feb 21 09:57:32 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 09:57:38 vccw sshd[1477]: Accepted publickey for vagrant from 10.0.2.2 port 56572 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 09:57:38 vccw sshd[1477]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 09:57:38 vccw systemd-logind[919]: New session 2 of user vagrant.
+Feb 21 09:57:51 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:51 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:51 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:51 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:51 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:52 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:52 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:52 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:52 vccw sshd[1189]: Received SIGHUP; restarting.
+Feb 21 09:57:52 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:52 vccw sshd[1189]: Server listening on 0.0.0.0 port 22.
+Feb 21 09:57:52 vccw sshd[1189]: Server listening on :: port 22.
+Feb 21 09:57:54 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:54 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:54 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:54 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:54 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:55 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:55 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:55 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:55 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:55 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:55 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:55 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:58 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:58 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 09:57:58 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 09:57:58 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 09:57:58 vccw sshd[1394]: Connection reset by 10.0.2.2 port 56566 [preauth]
+Feb 21 09:57:58 vccw sshd[1337]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 09:57:58 vccw sshd[1477]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 09:57:58 vccw sshd[1340]: Connection reset by 10.0.2.2 port 56564 [preauth]
+Feb 21 09:57:58 vccw systemd-logind[919]: Removed session 1.
+Feb 21 10:09:01 vccw CRON[2018]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 10:09:01 vccw CRON[2018]: pam_unix(cron:session): session closed for user root
+Feb 21 10:17:01 vccw CRON[2065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 10:17:01 vccw CRON[2065]: pam_unix(cron:session): session closed for user root
+Feb 21 10:39:01 vccw CRON[2068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 10:39:01 vccw CRON[2068]: pam_unix(cron:session): session closed for user root
+Feb 21 10:50:07 vccw sshd[2110]: Accepted publickey for vagrant from 10.0.2.2 port 56948 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 10:50:07 vccw sshd[2110]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 10:50:07 vccw systemd-logind[919]: New session 6 of user vagrant.
+Feb 21 11:09:01 vccw CRON[2162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 11:09:01 vccw CRON[2162]: pam_unix(cron:session): session closed for user root
+Feb 21 11:17:01 vccw CRON[2204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 11:17:01 vccw CRON[2204]: pam_unix(cron:session): session closed for user root
+Feb 21 11:25:38 vccw sshd[2142]: Received disconnect from 10.0.2.2 port 56948:11: disconnected by user
+Feb 21 11:25:38 vccw sshd[2142]: Disconnected from 10.0.2.2 port 56948
+Feb 21 11:25:38 vccw sshd[2110]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 11:25:38 vccw systemd-logind[919]: Removed session 6.
+Feb 21 11:25:48 vccw sshd[2212]: Accepted publickey for vagrant from 10.0.2.2 port 57190 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 11:25:48 vccw sshd[2212]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 11:25:48 vccw systemd-logind[919]: New session 9 of user vagrant.
+Feb 21 11:25:53 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 11:25:53 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 11:25:53 vccw sshd[2212]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 11:25:53 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:16 vccw systemd-logind[892]: New seat seat0.
+Feb 21 13:38:16 vccw systemd-logind[892]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 21 13:38:16 vccw systemd-logind[892]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 21 13:38:16 vccw systemd-logind[892]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 21 13:38:19 vccw sshd[1151]: Server listening on 0.0.0.0 port 22.
+Feb 21 13:38:19 vccw sshd[1151]: Server listening on :: port 22.
+Feb 21 13:38:21 vccw sshd[1319]: Accepted publickey for vagrant from 10.0.2.2 port 49396 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 13:38:21 vccw sshd[1319]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 13:38:21 vccw systemd-logind[892]: New session 1 of user vagrant.
+Feb 21 13:38:21 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 13:38:26 vccw sshd[1465]: Accepted publickey for vagrant from 10.0.2.2 port 49398 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 13:38:26 vccw sshd[1465]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 13:38:26 vccw systemd-logind[892]: New session 2 of user vagrant.
+Feb 21 13:38:40 vccw sshd[1319]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 13:38:40 vccw systemd-logind[892]: Removed session 1.
+Feb 21 13:38:40 vccw sshd[1335]: Connection reset by 10.0.2.2 port 49392 [preauth]
+Feb 21 13:38:41 vccw sshd[1398]: Connection reset by 10.0.2.2 port 49394 [preauth]
+Feb 21 13:38:41 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:41 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:41 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:41 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:41 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:41 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:42 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:42 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:42 vccw sshd[1151]: Received SIGHUP; restarting.
+Feb 21 13:38:42 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:42 vccw sshd[1151]: Server listening on 0.0.0.0 port 22.
+Feb 21 13:38:42 vccw sshd[1151]: Server listening on :: port 22.
+Feb 21 13:38:44 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:44 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:44 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:44 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:44 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:44 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:44 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:44 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:45 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:45 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:45 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:45 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:46 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:46 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:47 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:47 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:47 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:47 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:47 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:47 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:47 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:47 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:38:47 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 13:38:48 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 13:38:48 vccw sshd[1465]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 13:38:48 vccw systemd-logind[892]: Removed session 2.
+Feb 21 13:38:48 vccw systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Feb 21 13:39:01 vccw CRON[2028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 13:39:03 vccw CRON[2028]: pam_unix(cron:session): session closed for user root
+Feb 21 13:55:29 vccw sshd[2076]: Accepted publickey for vagrant from 10.0.2.2 port 49852 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 13:55:29 vccw sshd[2076]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 13:55:29 vccw systemd-logind[892]: New session 4 of user vagrant.
+Feb 21 13:55:29 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 13:55:34 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 13:55:34 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:26:21 vccw systemd-logind[984]: New seat seat0.
+Feb 21 15:26:21 vccw systemd-logind[984]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 21 15:26:21 vccw systemd-logind[984]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 21 15:26:21 vccw systemd-logind[984]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 21 15:26:26 vccw sshd[1203]: Server listening on 0.0.0.0 port 22.
+Feb 21 15:26:26 vccw sshd[1203]: Server listening on :: port 22.
+Feb 21 15:26:28 vccw sshd[1356]: Accepted publickey for vagrant from 10.0.2.2 port 49382 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 15:26:28 vccw sshd[1356]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 15:26:28 vccw systemd-logind[984]: New session 1 of user vagrant.
+Feb 21 15:26:28 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 15:26:33 vccw sshd[1499]: Accepted publickey for vagrant from 10.0.2.2 port 49386 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 15:26:33 vccw sshd[1499]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 15:26:33 vccw systemd-logind[984]: New session 2 of user vagrant.
+Feb 21 15:26:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:26:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:26:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:26:58 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:26:58 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:26:58 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:26:58 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:26:58 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:26:59 vccw sshd[1203]: Received SIGHUP; restarting.
+Feb 21 15:26:59 vccw sshd[1203]: Server listening on 0.0.0.0 port 22.
+Feb 21 15:26:59 vccw sshd[1203]: Server listening on :: port 22.
+Feb 21 15:26:59 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:00 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:00 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:01 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:01 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:01 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:01 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:01 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:01 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:01 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:02 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:02 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:02 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:03 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:03 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:03 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:04 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:04 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:04 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:04 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:04 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:04 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:04 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 15:27:04 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 15:27:04 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 15:27:05 vccw sshd[1360]: Connection reset by 10.0.2.2 port 49330 [preauth]
+Feb 21 15:27:05 vccw sshd[1414]: Connection reset by 10.0.2.2 port 49372 [preauth]
+Feb 21 15:27:05 vccw sshd[1356]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 15:27:05 vccw sshd[1499]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 15:27:05 vccw systemd-logind[984]: Removed session 1.
+Feb 21 15:27:05 vccw systemd-logind[984]: Removed session 2.
+Feb 21 15:39:01 vccw CRON[2058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 15:39:02 vccw CRON[2058]: pam_unix(cron:session): session closed for user root
+Feb 21 16:09:01 vccw CRON[2105]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 16:09:01 vccw CRON[2105]: pam_unix(cron:session): session closed for user root
+Feb 21 16:17:01 vccw CRON[2147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 16:17:01 vccw CRON[2147]: pam_unix(cron:session): session closed for user root
+Feb 21 16:38:01 vccw sshd[2150]: Accepted publickey for vagrant from 10.0.2.2 port 50008 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 16:38:01 vccw sshd[2150]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 16:38:01 vccw systemd-logind[984]: New session 6 of user vagrant.
+Feb 21 16:38:01 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 16:39:01 vccw CRON[2239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 16:39:02 vccw CRON[2239]: pam_unix(cron:session): session closed for user root
+Feb 21 17:09:01 vccw CRON[2285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 17:09:01 vccw CRON[2285]: pam_unix(cron:session): session closed for user root
+Feb 21 17:17:01 vccw CRON[2337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 17:17:01 vccw CRON[2337]: pam_unix(cron:session): session closed for user root
+Feb 21 17:39:01 vccw CRON[2356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 17:39:01 vccw CRON[2356]: pam_unix(cron:session): session closed for user root
+Feb 21 18:03:32 vccw sudo:  vagrant : TTY=pts/0 ; PWD=/var/www/html/bot.yo ; USER=root ; COMMAND=/usr/bin/apt install cron
+Feb 21 18:03:32 vccw sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Feb 21 18:03:35 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 18:03:49 vccw sudo:  vagrant : TTY=pts/0 ; PWD=/var/www/html/bot.yo ; USER=root ; COMMAND=/usr/bin/apt install crontab
+Feb 21 18:03:49 vccw sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Feb 21 18:03:50 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 18:09:01 vccw CRON[2464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 18:09:02 vccw CRON[2464]: pam_unix(cron:session): session closed for user root
+Feb 21 18:17:01 vccw CRON[2564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 18:17:01 vccw CRON[2564]: pam_unix(cron:session): session closed for user root
+Feb 21 18:18:01 vccw CRON[2568]: pam_unix(cron:session): session opened for user vagrant by (uid=0)
+Feb 21 18:18:03 vccw CRON[2568]: pam_unix(cron:session): session closed for user vagrant
+Feb 21 18:36:55 vccw sshd[2228]: Received disconnect from 10.0.2.2 port 50008:11: disconnected by user
+Feb 21 18:36:55 vccw sshd[2228]: Disconnected from 10.0.2.2 port 50008
+Feb 21 18:36:55 vccw sshd[2150]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 18:36:55 vccw systemd-logind[984]: Removed session 6.
+Feb 21 18:37:09 vccw sshd[2585]: Accepted publickey for vagrant from 10.0.2.2 port 52872 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 18:37:09 vccw sshd[2585]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 18:37:09 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 18:37:09 vccw systemd-logind[984]: New session 14 of user vagrant.
+Feb 21 18:37:14 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 18:37:14 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 18:37:14 vccw sshd[2585]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 18:37:14 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:54:46 vccw systemd-logind[954]: New seat seat0.
+Feb 21 19:54:46 vccw systemd-logind[954]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 21 19:54:46 vccw systemd-logind[954]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 21 19:54:46 vccw systemd-logind[954]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 21 19:54:49 vccw sshd[1165]: Server listening on 0.0.0.0 port 22.
+Feb 21 19:54:49 vccw sshd[1165]: Server listening on :: port 22.
+Feb 21 19:54:53 vccw sshd[1354]: Accepted publickey for vagrant from 10.0.2.2 port 53508 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 19:54:53 vccw sshd[1354]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 19:54:53 vccw systemd-logind[954]: New session 1 of user vagrant.
+Feb 21 19:54:53 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 19:54:58 vccw sshd[1448]: Accepted publickey for vagrant from 10.0.2.2 port 53510 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 19:54:58 vccw sshd[1448]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 19:54:58 vccw systemd-logind[954]: New session 2 of user vagrant.
+Feb 21 19:54:59 vccw sshd[1354]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 19:54:59 vccw systemd-logind[954]: Removed session 1.
+Feb 21 19:55:10 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:10 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:10 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:10 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:10 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:11 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:11 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:11 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:12 vccw sshd[1165]: Received SIGHUP; restarting.
+Feb 21 19:55:12 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:12 vccw sshd[1165]: Server listening on 0.0.0.0 port 22.
+Feb 21 19:55:12 vccw sshd[1165]: Server listening on :: port 22.
+Feb 21 19:55:13 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:13 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:13 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:14 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:14 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:14 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:14 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:14 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:14 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:14 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:14 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:15 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:16 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:16 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:16 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:16 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:16 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:17 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:17 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:17 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:17 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:17 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 21 19:55:17 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 21 19:55:17 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 21 19:55:17 vccw sshd[1413]: Connection reset by 10.0.2.2 port 53504 [preauth]
+Feb 21 19:55:17 vccw sshd[1351]: Connection reset by 10.0.2.2 port 53502 [preauth]
+Feb 21 19:55:17 vccw sshd[1448]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 19:55:17 vccw systemd-logind[954]: Removed session 2.
+Feb 21 19:55:43 vccw sshd[2035]: Accepted publickey for vagrant from 10.0.2.2 port 53512 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 19:55:43 vccw sshd[2035]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 19:55:43 vccw systemd-logind[954]: New session 3 of user vagrant.
+Feb 21 19:55:43 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 20:04:59 vccw sshd[2072]: Received disconnect from 10.0.2.2 port 53512:11: disconnected by user
+Feb 21 20:04:59 vccw sshd[2072]: Disconnected from 10.0.2.2 port 53512
+Feb 21 20:04:59 vccw sshd[2035]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 20:04:59 vccw systemd-logind[954]: Removed session 3.
+Feb 21 20:05:28 vccw sshd[2096]: Accepted publickey for vagrant from 10.0.2.2 port 53538 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 21 20:05:28 vccw sshd[2096]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 21 20:05:28 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 21 20:05:28 vccw systemd-logind[954]: New session 4 of user vagrant.
+Feb 21 20:09:01 vccw CRON[2142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 20:09:01 vccw CRON[2142]: pam_unix(cron:session): session closed for user root
+Feb 21 20:17:01 vccw CRON[2234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 20:17:02 vccw CRON[2234]: pam_unix(cron:session): session closed for user root
+Feb 21 20:39:01 vccw CRON[2244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 20:39:01 vccw CRON[2244]: pam_unix(cron:session): session closed for user root
+Feb 21 21:09:01 vccw CRON[2286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 21:09:01 vccw CRON[2286]: pam_unix(cron:session): session closed for user root
+Feb 21 21:17:01 vccw CRON[2328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 21:17:01 vccw CRON[2328]: pam_unix(cron:session): session closed for user root
+Feb 21 21:39:01 vccw CRON[2331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 21:39:01 vccw CRON[2331]: pam_unix(cron:session): session closed for user root
+Feb 21 22:09:01 vccw CRON[2373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 21 22:09:02 vccw CRON[2373]: pam_unix(cron:session): session closed for user root
+Feb 21 22:09:36 vccw sshd[2133]: Received disconnect from 10.0.2.2 port 53538:11: disconnected by user
+Feb 21 22:09:36 vccw sshd[2133]: Disconnected from 10.0.2.2 port 53538
+Feb 21 22:09:36 vccw sshd[2096]: pam_unix(sshd:session): session closed for user vagrant
+Feb 21 22:09:36 vccw systemd-logind[954]: Removed session 4.
+Feb 22 00:40:02 vccw systemd-logind[917]: New seat seat0.
+Feb 22 00:40:02 vccw systemd-logind[917]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 22 00:40:02 vccw systemd-logind[917]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 22 00:40:02 vccw systemd-logind[917]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 22 00:40:06 vccw sshd[1195]: Server listening on 0.0.0.0 port 22.
+Feb 22 00:40:06 vccw sshd[1195]: Server listening on :: port 22.
+Feb 22 00:40:08 vccw sshd[1361]: Accepted publickey for vagrant from 10.0.2.2 port 38106 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 22 00:40:08 vccw sshd[1361]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 22 00:40:08 vccw systemd-logind[917]: New session 1 of user vagrant.
+Feb 22 00:40:08 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 22 00:40:14 vccw sshd[1386]: Connection reset by 10.0.2.2 port 38096 [preauth]
+Feb 22 00:40:23 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:23 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:23 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:23 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:23 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:23 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:23 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:23 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:24 vccw sshd[1195]: Received SIGHUP; restarting.
+Feb 22 00:40:24 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:24 vccw sshd[1195]: Server listening on 0.0.0.0 port 22.
+Feb 22 00:40:24 vccw sshd[1195]: Server listening on :: port 22.
+Feb 22 00:40:25 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:25 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:26 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:26 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:26 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:26 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:26 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:26 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:26 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:27 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:27 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:27 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:28 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:28 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:28 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:29 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:29 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:29 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:29 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:29 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:29 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:29 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:40:29 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:40:29 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 00:40:30 vccw sshd[1361]: pam_unix(sshd:session): session closed for user vagrant
+Feb 22 00:40:30 vccw systemd-logind[917]: Removed session 1.
+Feb 22 00:40:40 vccw sshd[2028]: Accepted publickey for vagrant from 10.0.2.2 port 38108 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 22 00:40:40 vccw sshd[2028]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 22 00:40:40 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 22 00:40:40 vccw systemd-logind[917]: New session 2 of user vagrant.
+Feb 22 00:41:02 vccw sshd[2065]: Received disconnect from 10.0.2.2 port 38108:11: disconnected by user
+Feb 22 00:41:02 vccw sshd[2065]: Disconnected from 10.0.2.2 port 38108
+Feb 22 00:41:02 vccw sshd[2028]: pam_unix(sshd:session): session closed for user vagrant
+Feb 22 00:41:02 vccw systemd-logind[917]: Removed session 2.
+Feb 22 00:41:09 vccw sshd[2084]: Accepted publickey for vagrant from 10.0.2.2 port 38110 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 22 00:41:09 vccw sshd[2084]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 22 00:41:09 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 22 00:41:09 vccw systemd-logind[917]: New session 3 of user vagrant.
+Feb 22 00:41:13 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 00:41:13 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 00:41:14 vccw sshd[2084]: pam_unix(sshd:session): session closed for user vagrant
+Feb 22 00:41:14 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:07 vccw systemd-logind[992]: New seat seat0.
+Feb 22 09:13:07 vccw systemd-logind[992]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 22 09:13:07 vccw systemd-logind[992]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 22 09:13:07 vccw systemd-logind[992]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 22 09:13:11 vccw sshd[1192]: Server listening on 0.0.0.0 port 22.
+Feb 22 09:13:11 vccw sshd[1192]: Server listening on :: port 22.
+Feb 22 09:13:14 vccw sshd[1371]: Accepted publickey for vagrant from 10.0.2.2 port 48760 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 22 09:13:14 vccw sshd[1371]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 22 09:13:14 vccw systemd-logind[992]: New session 1 of user vagrant.
+Feb 22 09:13:14 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 22 09:13:19 vccw sshd[1371]: pam_unix(sshd:session): session closed for user vagrant
+Feb 22 09:13:19 vccw systemd-logind[992]: Removed session 1.
+Feb 22 09:13:19 vccw sshd[1510]: Accepted publickey for vagrant from 10.0.2.2 port 48762 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 22 09:13:19 vccw sshd[1510]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 22 09:13:19 vccw systemd-logind[992]: New session 2 of user vagrant.
+Feb 22 09:13:19 vccw systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Feb 22 09:13:19 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 22 09:13:32 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:32 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:33 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:33 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:33 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:33 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:34 vccw sshd[1192]: Received SIGHUP; restarting.
+Feb 22 09:13:34 vccw sshd[1192]: Server listening on 0.0.0.0 port 22.
+Feb 22 09:13:34 vccw sshd[1192]: Server listening on :: port 22.
+Feb 22 09:13:34 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:35 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:35 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:37 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:39 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:39 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:39 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:39 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:13:39 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 22 09:13:39 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 22 09:13:39 vccw sshd[1373]: Connection reset by 10.0.2.2 port 48756 [preauth]
+Feb 22 09:13:39 vccw sshd[1427]: Connection reset by 10.0.2.2 port 48758 [preauth]
+Feb 22 09:13:39 vccw sshd[1510]: pam_unix(sshd:session): session closed for user vagrant
+Feb 22 09:13:39 vccw systemd-logind[992]: Removed session 2.
+Feb 22 09:17:01 vccw CRON[2066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 22 09:17:01 vccw CRON[2066]: pam_unix(cron:session): session closed for user root
+Feb 22 09:33:48 vccw sshd[2074]: Accepted publickey for vagrant from 10.0.2.2 port 48920 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 22 09:33:48 vccw sshd[2074]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 22 09:33:48 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 22 09:33:48 vccw systemd-logind[992]: New session 4 of user vagrant.
+Feb 22 09:33:52 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 22 09:33:52 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:46:34 vccw systemd-logind[919]: New seat seat0.
+Feb 24 06:46:34 vccw systemd-logind[919]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 24 06:46:34 vccw systemd-logind[919]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 24 06:46:34 vccw systemd-logind[919]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 24 06:46:39 vccw sshd[1154]: Server listening on 0.0.0.0 port 22.
+Feb 24 06:46:39 vccw sshd[1154]: Server listening on :: port 22.
+Feb 24 06:46:43 vccw sshd[1359]: Accepted publickey for vagrant from 10.0.2.2 port 37066 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 24 06:46:43 vccw sshd[1359]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 24 06:46:43 vccw systemd-logind[919]: New session 1 of user vagrant.
+Feb 24 06:46:43 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 24 06:46:49 vccw sshd[1431]: Accepted publickey for vagrant from 10.0.2.2 port 37068 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 24 06:46:49 vccw sshd[1431]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 24 06:46:49 vccw systemd-logind[919]: New session 2 of user vagrant.
+Feb 24 06:46:55 vccw sshd[1591]: Accepted publickey for vagrant from 10.0.2.2 port 37070 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 24 06:46:55 vccw sshd[1591]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 24 06:46:55 vccw systemd-logind[919]: New session 3 of user vagrant.
+Feb 24 06:47:00 vccw sshd[1431]: pam_unix(sshd:session): session closed for user vagrant
+Feb 24 06:47:01 vccw sshd[1427]: Connection reset by 10.0.2.2 port 37052 [preauth]
+Feb 24 06:47:01 vccw sshd[1359]: pam_unix(sshd:session): session closed for user vagrant
+Feb 24 06:47:06 vccw systemd-logind[919]: Removed session 1.
+Feb 24 06:47:06 vccw systemd-logind[919]: Removed session 2.
+Feb 24 06:47:12 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:12 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:12 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:13 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:13 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:13 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:13 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:13 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:14 vccw sshd[1154]: Received SIGHUP; restarting.
+Feb 24 06:47:14 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:14 vccw sshd[1154]: Server listening on 0.0.0.0 port 22.
+Feb 24 06:47:14 vccw sshd[1154]: Server listening on :: port 22.
+Feb 24 06:47:16 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:16 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:16 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:16 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:16 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:16 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:16 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:16 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:17 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:17 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:17 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:17 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:18 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:18 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:18 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:19 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:19 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:19 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:19 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:19 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:19 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:19 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 06:47:19 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 06:47:20 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 06:47:20 vccw sshd[1591]: pam_unix(sshd:session): session closed for user vagrant
+Feb 24 06:47:20 vccw systemd-logind[919]: Removed session 3.
+Feb 24 07:09:01 vccw CRON[2163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 07:09:02 vccw CRON[2163]: pam_unix(cron:session): session closed for user root
+Feb 24 07:17:01 vccw CRON[2205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 07:17:01 vccw CRON[2205]: pam_unix(cron:session): session closed for user root
+Feb 24 07:39:01 vccw CRON[2217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 07:39:01 vccw CRON[2217]: pam_unix(cron:session): session closed for user root
+Feb 24 08:09:01 vccw CRON[2263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 08:09:01 vccw CRON[2263]: pam_unix(cron:session): session closed for user root
+Feb 24 08:17:01 vccw CRON[2310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 08:17:01 vccw CRON[2310]: pam_unix(cron:session): session closed for user root
+Feb 24 08:39:01 vccw CRON[2313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 08:39:02 vccw CRON[2313]: pam_unix(cron:session): session closed for user root
+Feb 24 09:09:01 vccw CRON[2357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 09:09:01 vccw CRON[2357]: pam_unix(cron:session): session closed for user root
+Feb 24 09:17:01 vccw CRON[2400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 09:17:01 vccw CRON[2400]: pam_unix(cron:session): session closed for user root
+Feb 24 09:39:01 vccw CRON[2404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 09:39:01 vccw CRON[2404]: pam_unix(cron:session): session closed for user root
+Feb 24 10:09:01 vccw CRON[2447]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 10:09:02 vccw CRON[2447]: pam_unix(cron:session): session closed for user root
+Feb 24 10:17:01 vccw CRON[2489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 10:17:01 vccw CRON[2489]: pam_unix(cron:session): session closed for user root
+Feb 24 10:39:01 vccw CRON[2493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 10:39:01 vccw CRON[2493]: pam_unix(cron:session): session closed for user root
+Feb 24 11:09:01 vccw CRON[2537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 11:09:01 vccw CRON[2537]: pam_unix(cron:session): session closed for user root
+Feb 24 11:17:01 vccw CRON[2579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 11:17:01 vccw CRON[2579]: pam_unix(cron:session): session closed for user root
+Feb 24 11:39:01 vccw CRON[2583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 11:39:02 vccw CRON[2583]: pam_unix(cron:session): session closed for user root
+Feb 24 12:09:01 vccw CRON[2625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 12:09:01 vccw CRON[2625]: pam_unix(cron:session): session closed for user root
+Feb 24 12:17:01 vccw CRON[2667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 12:17:01 vccw CRON[2667]: pam_unix(cron:session): session closed for user root
+Feb 24 12:39:01 vccw CRON[2670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 12:39:01 vccw CRON[2670]: pam_unix(cron:session): session closed for user root
+Feb 24 13:09:01 vccw CRON[2713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 13:09:02 vccw CRON[2713]: pam_unix(cron:session): session closed for user root
+Feb 24 13:17:01 vccw CRON[2755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 24 13:17:01 vccw CRON[2755]: pam_unix(cron:session): session closed for user root
+Feb 24 13:37:01 vccw sshd[2760]: Accepted publickey for vagrant from 10.0.2.2 port 39964 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 24 13:37:01 vccw sshd[2760]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 24 13:37:01 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 24 13:37:01 vccw systemd-logind[919]: New session 24 of user vagrant.
+Feb 24 13:37:08 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 24 13:37:08 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 24 13:37:08 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 24 13:37:08 vccw sshd[2760]: pam_unix(sshd:session): session closed for user vagrant
+Feb 27 11:42:11 vccw systemd-logind[888]: New seat seat0.
+Feb 27 11:42:11 vccw systemd-logind[888]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 27 11:42:11 vccw systemd-logind[888]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 27 11:42:11 vccw systemd-logind[888]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 27 11:42:17 vccw sshd[1175]: Server listening on 0.0.0.0 port 22.
+Feb 27 11:42:17 vccw sshd[1175]: Server listening on :: port 22.
+Feb 27 11:42:23 vccw sshd[1394]: Accepted publickey for vagrant from 10.0.2.2 port 59320 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 27 11:42:23 vccw sshd[1394]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 27 11:42:23 vccw systemd-logind[888]: New session 1 of user vagrant.
+Feb 27 11:42:23 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 27 11:42:28 vccw sshd[1462]: Accepted publickey for vagrant from 10.0.2.2 port 59322 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 27 11:42:28 vccw sshd[1462]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 27 11:42:28 vccw systemd-logind[888]: New session 2 of user vagrant.
+Feb 27 11:42:38 vccw sshd[1366]: Connection reset by 10.0.2.2 port 59314 [preauth]
+Feb 27 11:42:38 vccw sshd[1439]: Connection reset by 10.0.2.2 port 59318 [preauth]
+Feb 27 11:42:45 vccw sshd[1401]: Connection reset by 10.0.2.2 port 59316 [preauth]
+Feb 27 11:42:46 vccw sshd[1394]: pam_unix(sshd:session): session closed for user vagrant
+Feb 27 11:42:46 vccw systemd-logind[888]: Removed session 1.
+Feb 27 11:42:50 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:50 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:50 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:51 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:51 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:51 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:51 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:51 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:52 vccw sshd[1175]: Received SIGHUP; restarting.
+Feb 27 11:42:52 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:52 vccw sshd[1175]: Server listening on 0.0.0.0 port 22.
+Feb 27 11:42:52 vccw sshd[1175]: Server listening on :: port 22.
+Feb 27 11:42:53 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:53 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:54 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:54 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:54 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:54 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:54 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:54 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:54 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:54 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:54 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:55 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:56 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:56 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:56 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 11:42:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 11:42:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 27 11:42:58 vccw sshd[1462]: pam_unix(sshd:session): session closed for user vagrant
+Feb 27 11:42:58 vccw systemd-logind[888]: Removed session 2.
+Feb 27 12:09:01 vccw CRON[2142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 12:09:02 vccw CRON[2142]: pam_unix(cron:session): session closed for user root
+Feb 27 12:17:01 vccw CRON[2189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 12:17:01 vccw CRON[2189]: pam_unix(cron:session): session closed for user root
+Feb 27 12:39:01 vccw CRON[2201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 12:39:01 vccw CRON[2201]: pam_unix(cron:session): session closed for user root
+Feb 27 13:09:01 vccw CRON[2243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 13:09:01 vccw CRON[2243]: pam_unix(cron:session): session closed for user root
+Feb 27 13:17:01 vccw CRON[2285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 13:17:01 vccw CRON[2285]: pam_unix(cron:session): session closed for user root
+Feb 27 13:39:01 vccw CRON[2288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 13:39:02 vccw CRON[2288]: pam_unix(cron:session): session closed for user root
+Feb 27 14:09:01 vccw CRON[2330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 14:09:01 vccw CRON[2330]: pam_unix(cron:session): session closed for user root
+Feb 27 14:17:01 vccw CRON[2372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 27 14:17:01 vccw CRON[2372]: pam_unix(cron:session): session closed for user root
+Feb 27 14:30:12 vccw sshd[2378]: Accepted publickey for vagrant from 10.0.2.2 port 32956 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 27 14:30:12 vccw sshd[2378]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 27 14:30:12 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 27 14:30:12 vccw systemd-logind[888]: New session 11 of user vagrant.
+Feb 27 14:30:17 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 27 14:30:17 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 27 14:30:17 vccw sshd[2378]: pam_unix(sshd:session): session closed for user vagrant
+Feb 27 14:30:18 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:14:31 vccw systemd-logind[1023]: New seat seat0.
+Feb 28 13:14:31 vccw systemd-logind[1023]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 28 13:14:31 vccw systemd-logind[1023]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 28 13:14:31 vccw systemd-logind[1023]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 28 13:14:35 vccw sshd[1174]: Server listening on 0.0.0.0 port 22.
+Feb 28 13:14:35 vccw sshd[1174]: Server listening on :: port 22.
+Feb 28 13:14:37 vccw sshd[1337]: Accepted publickey for vagrant from 10.0.2.2 port 48082 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 28 13:14:37 vccw sshd[1337]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 28 13:14:37 vccw systemd-logind[1023]: New session 1 of user vagrant.
+Feb 28 13:14:37 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 28 13:14:56 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:14:56 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:14:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:14:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:14:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:14:57 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:14:57 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:14:57 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:14:58 vccw sshd[1174]: Received SIGHUP; restarting.
+Feb 28 13:14:58 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:14:58 vccw sshd[1174]: Server listening on 0.0.0.0 port 22.
+Feb 28 13:14:58 vccw sshd[1174]: Server listening on :: port 22.
+Feb 28 13:14:59 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:14:59 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:00 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:00 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:15:00 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:00 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:00 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:15:00 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:00 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:00 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:15:00 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:01 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:02 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:15:02 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:02 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:02 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:15:02 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:03 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:03 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:15:03 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:03 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:03 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 13:15:03 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 28 13:15:03 vccw sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 13:15:03 vccw sshd[1414]: Connection reset by 10.0.2.2 port 48080 [preauth]
+Feb 28 13:15:03 vccw sshd[1344]: Connection reset by 10.0.2.2 port 48078 [preauth]
+Feb 28 13:15:03 vccw sshd[1337]: pam_unix(sshd:session): session closed for user vagrant
+Feb 28 13:15:03 vccw systemd-logind[1023]: Removed session 1.
+Feb 28 13:17:01 vccw CRON[2026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 13:17:01 vccw CRON[2026]: pam_unix(cron:session): session closed for user root
+Feb 28 13:39:01 vccw CRON[2049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 13:39:01 vccw CRON[2049]: pam_unix(cron:session): session closed for user root
+Feb 28 14:09:01 vccw CRON[2095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 14:09:02 vccw CRON[2095]: pam_unix(cron:session): session closed for user root
+Feb 28 14:17:01 vccw CRON[2138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 14:17:01 vccw CRON[2138]: pam_unix(cron:session): session closed for user root
+Feb 28 14:39:01 vccw CRON[2143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 14:39:01 vccw CRON[2143]: pam_unix(cron:session): session closed for user root
+Feb 28 15:09:01 vccw CRON[2189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 15:09:02 vccw CRON[2189]: pam_unix(cron:session): session closed for user root
+Feb 28 15:17:01 vccw CRON[2239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 15:17:01 vccw CRON[2239]: pam_unix(cron:session): session closed for user root
+Feb 28 15:39:01 vccw CRON[2246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 28 15:39:01 vccw CRON[2246]: pam_unix(cron:session): session closed for user root
+Feb 28 16:04:59 vccw sshd[2290]: Accepted publickey for vagrant from 10.0.2.2 port 49940 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Feb 28 16:04:59 vccw sshd[2290]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 28 16:04:59 vccw systemd-logind[1023]: New session 10 of user vagrant.
+Feb 28 16:04:59 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 28 16:05:03 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Feb 28 16:05:03 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:15 vccw systemd-logind[902]: New seat seat0.
+Mar  1 09:08:15 vccw systemd-logind[902]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  1 09:08:15 vccw systemd-logind[902]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  1 09:08:15 vccw systemd-logind[902]: Watching system buttons on /dev/input/event3 (Video Bus)
+Mar  1 09:08:19 vccw sshd[1200]: Server listening on 0.0.0.0 port 22.
+Mar  1 09:08:19 vccw sshd[1200]: Server listening on :: port 22.
+Mar  1 09:08:21 vccw sshd[1371]: Accepted publickey for vagrant from 10.0.2.2 port 34274 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  1 09:08:21 vccw sshd[1371]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  1 09:08:21 vccw systemd-logind[902]: New session 1 of user vagrant.
+Mar  1 09:08:21 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  1 09:08:27 vccw sshd[1509]: Accepted publickey for vagrant from 10.0.2.2 port 34276 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  1 09:08:27 vccw sshd[1509]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  1 09:08:27 vccw systemd-logind[902]: New session 2 of user vagrant.
+Mar  1 09:08:42 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:42 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:42 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:42 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:42 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:42 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:43 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:43 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:43 vccw sshd[1200]: Received SIGHUP; restarting.
+Mar  1 09:08:43 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:43 vccw sshd[1374]: Connection reset by 10.0.2.2 port 34270 [preauth]
+Mar  1 09:08:43 vccw sshd[1426]: Connection reset by 10.0.2.2 port 34272 [preauth]
+Mar  1 09:08:43 vccw sshd[1200]: Server listening on 0.0.0.0 port 22.
+Mar  1 09:08:43 vccw sshd[1200]: Server listening on :: port 22.
+Mar  1 09:08:44 vccw sshd[1371]: pam_unix(sshd:session): session closed for user vagrant
+Mar  1 09:08:44 vccw systemd-logind[902]: Removed session 1.
+Mar  1 09:08:45 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:45 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:45 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:45 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:45 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:45 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:45 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:45 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:46 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:46 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:46 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:46 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:47 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:47 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:48 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:48 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:48 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:48 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:48 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:48 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:48 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:48 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 09:08:48 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  1 09:08:49 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  1 09:08:49 vccw sshd[1509]: pam_unix(sshd:session): session closed for user vagrant
+Mar  1 09:08:49 vccw systemd-logind[902]: Removed session 2.
+Mar  1 09:09:01 vccw CRON[2058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 09:09:03 vccw CRON[2058]: pam_unix(cron:session): session closed for user root
+Mar  1 09:17:01 vccw CRON[2107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 09:17:01 vccw CRON[2107]: pam_unix(cron:session): session closed for user root
+Mar  1 09:39:01 vccw CRON[2115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 09:39:01 vccw CRON[2115]: pam_unix(cron:session): session closed for user root
+Mar  1 10:09:02 vccw CRON[2157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 10:09:02 vccw CRON[2157]: pam_unix(cron:session): session closed for user root
+Mar  1 10:17:01 vccw CRON[2199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  1 10:17:01 vccw CRON[2199]: pam_unix(cron:session): session closed for user root
+Mar  1 10:20:19 vccw sshd[2202]: Accepted publickey for vagrant from 10.0.2.2 port 34840 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  1 10:20:19 vccw sshd[2202]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  1 10:20:19 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  1 10:20:19 vccw systemd-logind[902]: New session 8 of user vagrant.
+Mar  1 10:20:23 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  1 10:20:23 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:22:54 vccw systemd-logind[885]: New seat seat0.
+Mar  2 23:22:54 vccw systemd-logind[885]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  2 23:22:54 vccw systemd-logind[885]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  2 23:22:54 vccw systemd-logind[885]: Watching system buttons on /dev/input/event3 (Video Bus)
+Mar  2 23:22:58 vccw sshd[1193]: Server listening on 0.0.0.0 port 22.
+Mar  2 23:22:58 vccw sshd[1193]: Server listening on :: port 22.
+Mar  2 23:22:59 vccw sshd[1337]: Accepted publickey for vagrant from 10.0.2.2 port 53552 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  2 23:22:59 vccw sshd[1337]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  2 23:22:59 vccw systemd-logind[885]: New session 1 of user vagrant.
+Mar  2 23:23:00 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  2 23:23:05 vccw sshd[1488]: Accepted publickey for vagrant from 10.0.2.2 port 53554 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  2 23:23:05 vccw sshd[1488]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  2 23:23:05 vccw systemd-logind[885]: New session 2 of user vagrant.
+Mar  2 23:23:17 vccw sshd[1394]: Connection reset by 10.0.2.2 port 53546 [preauth]
+Mar  2 23:23:17 vccw sshd[1337]: pam_unix(sshd:session): session closed for user vagrant
+Mar  2 23:23:17 vccw systemd-logind[885]: Removed session 1.
+Mar  2 23:23:21 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:21 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:21 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:21 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:21 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:21 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:22 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:22 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:22 vccw sshd[1193]: Received SIGHUP; restarting.
+Mar  2 23:23:22 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:22 vccw sshd[1193]: Server listening on 0.0.0.0 port 22.
+Mar  2 23:23:22 vccw sshd[1193]: Server listening on :: port 22.
+Mar  2 23:23:24 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:24 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:24 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:24 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:24 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:25 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:25 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:25 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:25 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:25 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:25 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:25 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:27 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:27 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:27 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:27 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:27 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:27 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:27 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:27 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:27 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:28 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:23:28 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  2 23:23:28 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  2 23:23:28 vccw sshd[1488]: pam_unix(sshd:session): session closed for user vagrant
+Mar  2 23:23:28 vccw systemd-logind[885]: Removed session 2.
+Mar  2 23:30:45 vccw sshd[2065]: Accepted publickey for vagrant from 10.0.2.2 port 53874 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  2 23:30:45 vccw sshd[2065]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  2 23:30:45 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  2 23:30:45 vccw systemd-logind[885]: New session 3 of user vagrant.
+Mar  2 23:30:49 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  2 23:30:49 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:39:58 vccw systemd-logind[961]: New seat seat0.
+Mar  5 13:39:58 vccw systemd-logind[961]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  5 13:39:58 vccw systemd-logind[961]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  5 13:39:58 vccw systemd-logind[961]: Watching system buttons on /dev/input/event3 (Video Bus)
+Mar  5 13:40:03 vccw sshd[1149]: Server listening on 0.0.0.0 port 22.
+Mar  5 13:40:03 vccw sshd[1149]: Server listening on :: port 22.
+Mar  5 13:40:06 vccw sshd[1351]: Accepted publickey for vagrant from 10.0.2.2 port 56974 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  5 13:40:06 vccw sshd[1351]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  5 13:40:06 vccw systemd-logind[961]: New session 1 of user vagrant.
+Mar  5 13:40:06 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  5 13:40:11 vccw sshd[1408]: Connection reset by 10.0.2.2 port 56972 [preauth]
+Mar  5 13:40:11 vccw sshd[1451]: Accepted publickey for vagrant from 10.0.2.2 port 56976 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  5 13:40:11 vccw sshd[1451]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  5 13:40:11 vccw systemd-logind[961]: New session 2 of user vagrant.
+Mar  5 13:40:13 vccw sshd[1355]: Connection reset by 10.0.2.2 port 56970 [preauth]
+Mar  5 13:40:15 vccw sshd[1351]: pam_unix(sshd:session): session closed for user vagrant
+Mar  5 13:40:20 vccw systemd-logind[961]: Removed session 1.
+Mar  5 13:40:26 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:26 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:27 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:27 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:27 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:27 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:27 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:27 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:28 vccw sshd[1149]: Received SIGHUP; restarting.
+Mar  5 13:40:28 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:28 vccw sshd[1149]: Server listening on 0.0.0.0 port 22.
+Mar  5 13:40:28 vccw sshd[1149]: Server listening on :: port 22.
+Mar  5 13:40:29 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:29 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:30 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:30 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:30 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:30 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:30 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:30 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:30 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:30 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:30 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:31 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:32 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:32 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:32 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:32 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:32 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:33 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:33 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:33 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:40:33 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:40:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:40:33 vccw sshd[1451]: pam_unix(sshd:session): session closed for user vagrant
+Mar  5 13:40:33 vccw systemd-logind[961]: Removed session 2.
+Mar  5 13:43:03 vccw sshd[2047]: Accepted publickey for vagrant from 10.0.2.2 port 57046 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  5 13:43:03 vccw sshd[2047]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  5 13:43:03 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  5 13:43:03 vccw systemd-logind[961]: New session 3 of user vagrant.
+Mar  5 13:43:08 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 13:43:08 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 13:43:08 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 13:43:08 vccw sshd[2047]: pam_unix(sshd:session): session closed for user vagrant
+Mar  5 14:08:30 vccw systemd-logind[896]: New seat seat0.
+Mar  5 14:08:30 vccw systemd-logind[896]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  5 14:08:30 vccw systemd-logind[896]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  5 14:08:30 vccw systemd-logind[896]: Watching system buttons on /dev/input/event3 (Video Bus)
+Mar  5 14:08:34 vccw sshd[1189]: Server listening on 0.0.0.0 port 22.
+Mar  5 14:08:34 vccw sshd[1189]: Server listening on :: port 22.
+Mar  5 14:08:36 vccw sshd[1342]: Accepted publickey for vagrant from 10.0.2.2 port 41226 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  5 14:08:36 vccw sshd[1342]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  5 14:08:37 vccw systemd-logind[896]: New session 1 of user vagrant.
+Mar  5 14:08:37 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  5 14:08:42 vccw sshd[1484]: Accepted publickey for vagrant from 10.0.2.2 port 41228 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  5 14:08:42 vccw sshd[1484]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  5 14:08:42 vccw systemd-logind[896]: New session 2 of user vagrant.
+Mar  5 14:09:01 vccw CRON[1547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 14:09:01 vccw CRON[1547]: pam_unix(cron:session): session closed for user root
+Mar  5 14:09:31 vccw sshd[1344]: Connection reset by 10.0.2.2 port 41222 [preauth]
+Mar  5 14:09:31 vccw sshd[1402]: Connection reset by 10.0.2.2 port 41224 [preauth]
+Mar  5 14:09:32 vccw sshd[1342]: pam_unix(sshd:session): session closed for user vagrant
+Mar  5 14:09:32 vccw systemd-logind[896]: Removed session 1.
+Mar  5 14:09:32 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:32 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:33 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:33 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:33 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:33 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:33 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:34 vccw sshd[1189]: Received SIGHUP; restarting.
+Mar  5 14:09:34 vccw sshd[1189]: Server listening on 0.0.0.0 port 22.
+Mar  5 14:09:34 vccw sshd[1189]: Server listening on :: port 22.
+Mar  5 14:09:34 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:35 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:35 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:36 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:36 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:36 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:37 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:38 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:38 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:38 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:39 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:39 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:39 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:39 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:39 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 14:09:39 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  5 14:09:39 vccw sudo: pam_unix(sudo:session): session closed for user root
+Mar  5 14:09:39 vccw sshd[1484]: pam_unix(sshd:session): session closed for user vagrant
+Mar  5 14:09:39 vccw systemd-logind[896]: Removed session 2.
+Mar  5 14:17:01 vccw CRON[2087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 14:17:01 vccw CRON[2087]: pam_unix(cron:session): session closed for user root
+Mar  5 14:39:01 vccw CRON[2097]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 14:39:02 vccw CRON[2097]: pam_unix(cron:session): session closed for user root
+Mar  5 15:09:01 vccw CRON[2140]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 15:09:01 vccw CRON[2140]: pam_unix(cron:session): session closed for user root
+Mar  5 15:17:01 vccw CRON[2183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 15:17:01 vccw CRON[2183]: pam_unix(cron:session): session closed for user root
+Mar  5 15:39:01 vccw CRON[2186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 15:39:01 vccw CRON[2186]: pam_unix(cron:session): session closed for user root
+Mar  5 16:09:01 vccw CRON[2228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 16:09:02 vccw CRON[2228]: pam_unix(cron:session): session closed for user root
+Mar  5 16:17:01 vccw CRON[2270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 16:17:01 vccw CRON[2270]: pam_unix(cron:session): session closed for user root
+Mar  5 16:39:01 vccw CRON[2273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 16:39:01 vccw CRON[2273]: pam_unix(cron:session): session closed for user root
+Mar  5 17:09:01 vccw CRON[2315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 17:09:01 vccw CRON[2315]: pam_unix(cron:session): session closed for user root
+Mar  5 17:17:01 vccw CRON[2357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 17:17:01 vccw CRON[2357]: pam_unix(cron:session): session closed for user root
+Mar  5 17:39:01 vccw CRON[2360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 17:39:02 vccw CRON[2360]: pam_unix(cron:session): session closed for user root
+Mar  5 18:09:01 vccw CRON[2402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 18:09:01 vccw CRON[2402]: pam_unix(cron:session): session closed for user root
+Mar  5 18:17:01 vccw CRON[2444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 18:17:01 vccw CRON[2444]: pam_unix(cron:session): session closed for user root
+Mar  5 18:18:01 vccw CRON[2447]: pam_unix(cron:session): session opened for user vagrant by (uid=0)
+Mar  5 18:18:03 vccw CRON[2447]: pam_unix(cron:session): session closed for user vagrant
+Mar  5 18:39:01 vccw CRON[2452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 18:39:01 vccw CRON[2452]: pam_unix(cron:session): session closed for user root
+Mar  5 19:09:01 vccw CRON[2494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 19:09:02 vccw CRON[2494]: pam_unix(cron:session): session closed for user root
+Mar  5 19:17:01 vccw CRON[2536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 19:17:01 vccw CRON[2536]: pam_unix(cron:session): session closed for user root
+Mar  5 19:39:01 vccw CRON[2539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 19:39:01 vccw CRON[2539]: pam_unix(cron:session): session closed for user root
+Mar  5 20:09:01 vccw CRON[2581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  5 20:09:01 vccw CRON[2581]: pam_unix(cron:session): session closed for user root
+Mar  5 20:10:10 vccw sshd[2623]: Accepted publickey for vagrant from 10.0.2.2 port 41830 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Mar  5 20:10:10 vccw sshd[2623]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Mar  5 20:10:10 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Mar  5 20:10:10 vccw systemd-logind[896]: New session 23 of user vagrant.
+Mar  5 20:10:15 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Mar  5 20:10:15 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:11:47 vccw systemd-logind[943]: New seat seat0.
+Apr 19 14:11:47 vccw systemd-logind[943]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 19 14:11:47 vccw systemd-logind[943]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Apr 19 14:11:47 vccw systemd-logind[943]: Watching system buttons on /dev/input/event3 (Video Bus)
+Apr 19 14:11:53 vccw sshd[1172]: Server listening on 0.0.0.0 port 22.
+Apr 19 14:11:53 vccw sshd[1172]: Server listening on :: port 22.
+Apr 19 14:11:54 vccw sshd[1347]: Accepted publickey for vagrant from 10.0.2.2 port 36668 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Apr 19 14:11:54 vccw sshd[1347]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 19 14:11:55 vccw systemd-logind[943]: New session 1 of user vagrant.
+Apr 19 14:11:55 vccw systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Apr 19 14:12:00 vccw sshd[1434]: Accepted publickey for vagrant from 10.0.2.2 port 36670 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Apr 19 14:12:00 vccw sshd[1434]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 19 14:12:00 vccw systemd-logind[943]: New session 2 of user vagrant.
+Apr 19 14:12:17 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:17 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:17 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:17 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:17 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:18 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:18 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:18 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:19 vccw sshd[1172]: Received SIGHUP; restarting.
+Apr 19 14:12:19 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:19 vccw sshd[1172]: Server listening on 0.0.0.0 port 22.
+Apr 19 14:12:19 vccw sshd[1172]: Server listening on :: port 22.
+Apr 19 14:12:20 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:20 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:20 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:20 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:20 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:21 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:21 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:21 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:21 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:21 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:21 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:21 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:23 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:23 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:23 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:23 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:23 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:23 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:23 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:23 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:24 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:24 vccw sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Apr 19 14:12:24 vccw sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 19 14:12:24 vccw sudo: pam_unix(sudo:session): session closed for user root
+Apr 19 14:12:24 vccw sshd[1396]: Connection reset by 10.0.2.2 port 36666 [preauth]
+Apr 19 14:12:24 vccw sshd[1347]: pam_unix(sshd:session): session closed for user vagrant
+Apr 19 14:12:24 vccw sshd[1434]: pam_unix(sshd:session): session closed for user vagrant
+Apr 19 14:12:24 vccw sshd[1548]: Connection reset by 10.0.2.2 port 36662 [preauth]
+Apr 19 14:12:24 vccw sshd[1526]: Connection reset by 10.0.2.2 port 36660 [preauth]
+Apr 19 14:12:24 vccw sshd[1357]: Connection reset by 10.0.2.2 port 36664 [preauth]
+Apr 19 14:12:35 vccw sshd[2055]: Accepted publickey for vagrant from 10.0.2.2 port 36672 ssh2: RSA SHA256:tx6eXVBL1h5bllXbXqB05v19EtVZhACioUhnklCFFaM
+Apr 19 14:12:35 vccw sshd[2055]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Apr 19 14:12:35 vccw systemd-logind[943]: New session 3 of user vagrant.
+Apr 19 14:13:25 vccw sudo:  vagrant : TTY=pts/0 ; PWD=/var ; USER=root ; COMMAND=/bin/cp -r log/ /vagrant/
+Apr 19 14:13:25 vccw sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)

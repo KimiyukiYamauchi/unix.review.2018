@@ -1,0 +1,966 @@
+Feb 19 04:57:41 vccw kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 19 04:57:41 vccw kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 19 04:57:41 vccw kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 19 04:57:41 vccw kernel: [    0.000000] Linux version 4.4.0-92-generic (buildd@lcy01-17) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017 (Ubuntu 4.4.0-92.115-generic 4.4.76)
+Feb 19 04:57:41 vccw kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-4.4.0-92-generic root=/dev/mapper/vagrant--vg-root ro quiet
+Feb 19 04:57:41 vccw kernel: [    0.000000] KERNEL supported cpus:
+Feb 19 04:57:41 vccw kernel: [    0.000000]   Intel GenuineIntel
+Feb 19 04:57:41 vccw kernel: [    0.000000]   AMD AuthenticAMD
+Feb 19 04:57:41 vccw kernel: [    0.000000]   Centaur CentaurHauls
+Feb 19 04:57:41 vccw kernel: [    0.000000] x86/fpu: Legacy x87 FPU detected.
+Feb 19 04:57:41 vccw kernel: [    0.000000] x86/fpu: Using 'lazy' FPU context switches.
+Feb 19 04:57:41 vccw kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Feb 19 04:57:41 vccw kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Feb 19 04:57:41 vccw kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Feb 19 04:57:41 vccw kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Feb 19 04:57:41 vccw kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Feb 19 04:57:41 vccw kernel: [    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Feb 19 04:57:41 vccw kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Feb 19 04:57:41 vccw kernel: [    0.000000] NX (Execute Disable) protection: active
+Feb 19 04:57:41 vccw kernel: [    0.000000] SMBIOS 2.5 present.
+Feb 19 04:57:41 vccw kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Feb 19 04:57:41 vccw kernel: [    0.000000] Hypervisor detected: KVM
+Feb 19 04:57:41 vccw kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Feb 19 04:57:41 vccw kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Feb 19 04:57:41 vccw kernel: [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+Feb 19 04:57:41 vccw kernel: [    0.000000] MTRR default type: uncachable
+Feb 19 04:57:41 vccw kernel: [    0.000000] MTRR variable ranges disabled:
+Feb 19 04:57:41 vccw kernel: [    0.000000] MTRR: Disabled
+Feb 19 04:57:41 vccw kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Feb 19 04:57:41 vccw kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Feb 19 04:57:41 vccw kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Feb 19 04:57:41 vccw kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+Feb 19 04:57:41 vccw kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Feb 19 04:57:41 vccw kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Feb 19 04:57:41 vccw kernel: [    0.000000] BRK [0x0220c000, 0x0220cfff] PGTABLE
+Feb 19 04:57:41 vccw kernel: [    0.000000] BRK [0x0220d000, 0x0220dfff] PGTABLE
+Feb 19 04:57:41 vccw kernel: [    0.000000] BRK [0x0220e000, 0x0220efff] PGTABLE
+Feb 19 04:57:41 vccw kernel: [    0.000000] BRK [0x0220f000, 0x0220ffff] PGTABLE
+Feb 19 04:57:41 vccw kernel: [    0.000000] RAMDISK: [mem 0x34bc2000-0x365d8fff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: FACP 0x000000003FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: DSDT 0x000000003FFF0470 002118 (v01 VBOX   VBOXBIOS 00000002 INTL 20160108)
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: APIC 0x000000003FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: SSDT 0x000000003FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20160108)
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 19 04:57:41 vccw kernel: [    0.000000] No NUMA configuration found
+Feb 19 04:57:41 vccw kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3ffeb000-0x3ffeffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Feb 19 04:57:41 vccw kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3ffe3001, primary cpu clock
+Feb 19 04:57:41 vccw kernel: [    0.000000] kvm-clock: using sched offset of 5520466447 cycles
+Feb 19 04:57:41 vccw kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Feb 19 04:57:41 vccw kernel: [    0.000000] Zone ranges:
+Feb 19 04:57:41 vccw kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003ffeffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000]   Normal   empty
+Feb 19 04:57:41 vccw kernel: [    0.000000]   Device   empty
+Feb 19 04:57:41 vccw kernel: [    0.000000] Movable zone start for each node
+Feb 19 04:57:41 vccw kernel: [    0.000000] Early memory node ranges
+Feb 19 04:57:41 vccw kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Feb 19 04:57:41 vccw kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003ffeffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffeffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] On node 0 totalpages: 262030
+Feb 19 04:57:41 vccw kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Feb 19 04:57:41 vccw kernel: [    0.000000]   DMA zone: 21 pages reserved
+Feb 19 04:57:41 vccw kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Feb 19 04:57:41 vccw kernel: [    0.000000]   DMA32 zone: 4032 pages used for memmap
+Feb 19 04:57:41 vccw kernel: [    0.000000]   DMA32 zone: 258032 pages, LIFO batch:31
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 19 04:57:41 vccw kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-23
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 19 04:57:41 vccw kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 19 04:57:41 vccw kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Feb 19 04:57:41 vccw kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Feb 19 04:57:41 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Feb 19 04:57:41 vccw kernel: [    0.000000] e820: [mem 0x40000000-0xfffbffff] available for PCI devices
+Feb 19 04:57:41 vccw kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Feb 19 04:57:41 vccw kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Feb 19 04:57:41 vccw kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Feb 19 04:57:41 vccw kernel: [    0.000000] PERCPU: Embedded 33 pages/cpu @ffff88003fc00000 s98264 r8192 d28712 u2097152
+Feb 19 04:57:41 vccw kernel: [    0.000000] pcpu-alloc: s98264 r8192 d28712 u2097152 alloc=1*2097152
+Feb 19 04:57:41 vccw kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 19 04:57:41 vccw kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257913
+Feb 19 04:57:41 vccw kernel: [    0.000000] Policy zone: DMA32
+Feb 19 04:57:41 vccw kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-4.4.0-92-generic root=/dev/mapper/vagrant--vg-root ro quiet
+Feb 19 04:57:41 vccw kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Feb 19 04:57:41 vccw kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Feb 19 04:57:41 vccw kernel: [    0.000000] Memory: 985992K/1048120K available (8474K kernel code, 1294K rwdata, 3984K rodata, 1488K init, 1316K bss, 62128K reserved, 0K cma-reserved)
+Feb 19 04:57:41 vccw kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 19 04:57:41 vccw kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 19 04:57:41 vccw kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Feb 19 04:57:41 vccw kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+Feb 19 04:57:41 vccw kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+Feb 19 04:57:41 vccw kernel: [    0.000000] NR_IRQS:33024 nr_irqs:256 16
+Feb 19 04:57:41 vccw kernel: [    0.000000] Console: colour VGA+ 80x25
+Feb 19 04:57:41 vccw kernel: [    0.000000] console [tty0] enabled
+Feb 19 04:57:41 vccw kernel: [    0.000000] tsc: Detected 1599.947 MHz processor
+Feb 19 04:57:41 vccw kernel: [    0.100501] Calibrating delay loop (skipped) preset value.. 3199.89 BogoMIPS (lpj=6399788)
+Feb 19 04:57:41 vccw kernel: [    0.100509] pid_max: default: 32768 minimum: 301
+Feb 19 04:57:41 vccw kernel: [    0.100522] ACPI: Core revision 20150930
+Feb 19 04:57:41 vccw kernel: [    0.103202] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Feb 19 04:57:41 vccw kernel: [    0.103243] Security Framework initialized
+Feb 19 04:57:41 vccw kernel: [    0.103248] Yama: becoming mindful.
+Feb 19 04:57:41 vccw kernel: [    0.103279] AppArmor: AppArmor initialized
+Feb 19 04:57:41 vccw kernel: [    0.103438] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.103903] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.104132] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.104141] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.104652] Initializing cgroup subsys io
+Feb 19 04:57:41 vccw kernel: [    0.104663] Initializing cgroup subsys memory
+Feb 19 04:57:41 vccw kernel: [    0.104677] Initializing cgroup subsys devices
+Feb 19 04:57:41 vccw kernel: [    0.104683] Initializing cgroup subsys freezer
+Feb 19 04:57:41 vccw kernel: [    0.104688] Initializing cgroup subsys net_cls
+Feb 19 04:57:41 vccw kernel: [    0.104693] Initializing cgroup subsys perf_event
+Feb 19 04:57:41 vccw kernel: [    0.104698] Initializing cgroup subsys net_prio
+Feb 19 04:57:41 vccw kernel: [    0.104706] Initializing cgroup subsys hugetlb
+Feb 19 04:57:41 vccw kernel: [    0.104712] Initializing cgroup subsys pids
+Feb 19 04:57:41 vccw kernel: [    0.104913] CPU: Physical Processor ID: 0
+Feb 19 04:57:41 vccw kernel: [    0.110479] mce: CPU supports 0 MCE banks
+Feb 19 04:57:41 vccw kernel: [    0.110538] process: using mwait in idle threads
+Feb 19 04:57:41 vccw kernel: [    0.110554] Last level iTLB entries: 4KB 48, 2MB 0, 4MB 0
+Feb 19 04:57:41 vccw kernel: [    0.110557] Last level dTLB entries: 4KB 256, 2MB 16, 4MB 16, 1GB 0
+Feb 19 04:57:41 vccw kernel: [    0.156954] Freeing SMP alternatives memory: 32K (ffffffff820b9000 - ffffffff820c1000)
+Feb 19 04:57:41 vccw kernel: [    0.180356] ftrace: allocating 32131 entries in 126 pages
+Feb 19 04:57:41 vccw kernel: [    0.308388] smpboot: APIC(0) Converting physical 0 to logical package 0
+Feb 19 04:57:41 vccw kernel: [    0.308395] smpboot: Max logical packages: 1
+Feb 19 04:57:41 vccw kernel: [    0.311509] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Feb 19 04:57:41 vccw kernel: [    0.400897] smpboot: CPU0: Intel(R) Celeron(R) CPU  N3050  @ 1.60GHz (family: 0x6, model: 0x4c, stepping: 0x3)
+Feb 19 04:57:41 vccw kernel: [    0.400950] Performance Events: unsupported p6 CPU model 76 no PMU driver, software events only.
+Feb 19 04:57:41 vccw kernel: [    0.401018] KVM setup paravirtual spinlock
+Feb 19 04:57:41 vccw kernel: [    0.402344] x86: Booted up 1 node, 1 CPUs
+Feb 19 04:57:41 vccw kernel: [    0.402351] smpboot: Total of 1 processors activated (3199.89 BogoMIPS)
+Feb 19 04:57:41 vccw kernel: [    0.403091] devtmpfs: initialized
+Feb 19 04:57:41 vccw kernel: [    0.409238] evm: security.selinux
+Feb 19 04:57:41 vccw kernel: [    0.409241] evm: security.SMACK64
+Feb 19 04:57:41 vccw kernel: [    0.409243] evm: security.SMACK64EXEC
+Feb 19 04:57:41 vccw kernel: [    0.409245] evm: security.SMACK64TRANSMUTE
+Feb 19 04:57:41 vccw kernel: [    0.409247] evm: security.SMACK64MMAP
+Feb 19 04:57:41 vccw kernel: [    0.409249] evm: security.ima
+Feb 19 04:57:41 vccw kernel: [    0.409251] evm: security.capability
+Feb 19 04:57:41 vccw kernel: [    0.409641] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Feb 19 04:57:41 vccw kernel: [    0.409659] futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.409813] pinctrl core: initialized pinctrl subsystem
+Feb 19 04:57:41 vccw kernel: [    0.410066] RTC time:  4:57:15, date: 02/19/18
+Feb 19 04:57:41 vccw kernel: [    0.410382] NET: Registered protocol family 16
+Feb 19 04:57:41 vccw kernel: [    0.410716] cpuidle: using governor ladder
+Feb 19 04:57:41 vccw kernel: [    0.410720] cpuidle: using governor menu
+Feb 19 04:57:41 vccw kernel: [    0.410726] PCCT header not found.
+Feb 19 04:57:41 vccw kernel: [    0.410841] ACPI: bus type PCI registered
+Feb 19 04:57:41 vccw kernel: [    0.410846] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Feb 19 04:57:41 vccw kernel: [    0.411145] PCI: Using configuration type 1 for base access
+Feb 19 04:57:41 vccw kernel: [    0.415520] ACPI: Added _OSI(Module Device)
+Feb 19 04:57:41 vccw kernel: [    0.415526] ACPI: Added _OSI(Processor Device)
+Feb 19 04:57:41 vccw kernel: [    0.415529] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 19 04:57:41 vccw kernel: [    0.415532] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 19 04:57:41 vccw kernel: [    0.417197] ACPI: Executed 1 blocks of module-level executable AML code
+Feb 19 04:57:41 vccw kernel: [    0.422115] ACPI: Interpreter enabled
+Feb 19 04:57:41 vccw kernel: [    0.422137] ACPI: (supports S0 S5)
+Feb 19 04:57:41 vccw kernel: [    0.422142] ACPI: Using IOAPIC for interrupt routing
+Feb 19 04:57:41 vccw kernel: [    0.422655] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Feb 19 04:57:41 vccw kernel: [    0.432736] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Feb 19 04:57:41 vccw kernel: [    0.432749] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Feb 19 04:57:41 vccw kernel: [    0.432759] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Feb 19 04:57:41 vccw kernel: [    0.432775] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Feb 19 04:57:41 vccw kernel: [    0.433454] PCI host bridge to bus 0000:00
+Feb 19 04:57:41 vccw kernel: [    0.433461] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Feb 19 04:57:41 vccw kernel: [    0.433465] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Feb 19 04:57:41 vccw kernel: [    0.433469] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Feb 19 04:57:41 vccw kernel: [    0.433473] pci_bus 0000:00: root bus resource [mem 0x40000000-0xffdfffff window]
+Feb 19 04:57:41 vccw kernel: [    0.433477] pci_bus 0000:00: root bus resource [bus 00-ff]
+Feb 19 04:57:41 vccw kernel: [    0.433575] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Feb 19 04:57:41 vccw kernel: [    0.434849] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Feb 19 04:57:41 vccw kernel: [    0.436495] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Feb 19 04:57:41 vccw kernel: [    0.437466] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Feb 19 04:57:41 vccw kernel: [    0.437876] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Feb 19 04:57:41 vccw kernel: [    0.437880] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Feb 19 04:57:41 vccw kernel: [    0.437884] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Feb 19 04:57:41 vccw kernel: [    0.437887] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Feb 19 04:57:41 vccw kernel: [    0.438386] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Feb 19 04:57:41 vccw kernel: [    0.441012] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe07fffff pref]
+Feb 19 04:57:41 vccw kernel: [    0.455773] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Feb 19 04:57:41 vccw kernel: [    0.458109] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Feb 19 04:57:41 vccw kernel: [    0.461987] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Feb 19 04:57:41 vccw kernel: [    0.470774] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Feb 19 04:57:41 vccw kernel: [    0.472850] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Feb 19 04:57:41 vccw kernel: [    0.474941] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Feb 19 04:57:41 vccw kernel: [    0.476925] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Feb 19 04:57:41 vccw kernel: [    0.485465] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Feb 19 04:57:41 vccw kernel: [    0.485758] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Feb 19 04:57:41 vccw kernel: [    0.485926] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Feb 19 04:57:41 vccw kernel: [    0.487330] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Feb 19 04:57:41 vccw kernel: [    0.489183] pci 0000:00:08.0: [8086:100e] type 00 class 0x020000
+Feb 19 04:57:41 vccw kernel: [    0.491579] pci 0000:00:08.0: reg 0x10: [mem 0xf0820000-0xf083ffff]
+Feb 19 04:57:41 vccw kernel: [    0.495305] pci 0000:00:08.0: reg 0x18: [io  0xd240-0xd247]
+Feb 19 04:57:41 vccw kernel: [    0.504588] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Feb 19 04:57:41 vccw kernel: [    0.507097] pci 0000:00:0d.0: reg 0x10: [io  0xd248-0xd24f]
+Feb 19 04:57:41 vccw kernel: [    0.511111] pci 0000:00:0d.0: reg 0x18: [io  0xd258-0xd25f]
+Feb 19 04:57:41 vccw kernel: [    0.515033] pci 0000:00:0d.0: reg 0x20: [io  0xd270-0xd27f]
+Feb 19 04:57:41 vccw kernel: [    0.516989] pci 0000:00:0d.0: reg 0x24: [mem 0xf0840000-0xf0841fff]
+Feb 19 04:57:41 vccw kernel: [    0.522776] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Feb 19 04:57:41 vccw kernel: [    0.523418] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Feb 19 04:57:41 vccw kernel: [    0.523681] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Feb 19 04:57:41 vccw kernel: [    0.523922] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Feb 19 04:57:41 vccw kernel: [    0.524243] ACPI: Enabled 2 GPEs in block 00 to 07
+Feb 19 04:57:41 vccw kernel: [    0.524825] vgaarb: setting as boot device: PCI:0000:00:02.0
+Feb 19 04:57:41 vccw kernel: [    0.524831] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Feb 19 04:57:41 vccw kernel: [    0.524836] vgaarb: loaded
+Feb 19 04:57:41 vccw kernel: [    0.524839] vgaarb: bridge control possible 0000:00:02.0
+Feb 19 04:57:41 vccw kernel: [    0.525429] SCSI subsystem initialized
+Feb 19 04:57:41 vccw kernel: [    0.525570] libata version 3.00 loaded.
+Feb 19 04:57:41 vccw kernel: [    0.525650] ACPI: bus type USB registered
+Feb 19 04:57:41 vccw kernel: [    0.525716] usbcore: registered new interface driver usbfs
+Feb 19 04:57:41 vccw kernel: [    0.525744] usbcore: registered new interface driver hub
+Feb 19 04:57:41 vccw kernel: [    0.525770] usbcore: registered new device driver usb
+Feb 19 04:57:41 vccw kernel: [    0.526133] PCI: Using ACPI for IRQ routing
+Feb 19 04:57:41 vccw kernel: [    0.526138] PCI: pci_cache_line_size set to 64 bytes
+Feb 19 04:57:41 vccw kernel: [    0.526631] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Feb 19 04:57:41 vccw kernel: [    0.526646] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+Feb 19 04:57:41 vccw kernel: [    0.526946] NetLabel: Initializing
+Feb 19 04:57:41 vccw kernel: [    0.526950] NetLabel:  domain hash size = 128
+Feb 19 04:57:41 vccw kernel: [    0.526952] NetLabel:  protocols = UNLABELED CIPSOv4
+Feb 19 04:57:41 vccw kernel: [    0.526975] NetLabel:  unlabeled traffic allowed by default
+Feb 19 04:57:41 vccw kernel: [    0.527242] amd_nb: Cannot enumerate AMD northbridges
+Feb 19 04:57:41 vccw kernel: [    0.527269] clocksource: Switched to clocksource kvm-clock
+Feb 19 04:57:41 vccw kernel: [    0.544665] AppArmor: AppArmor Filesystem Enabled
+Feb 19 04:57:41 vccw kernel: [    0.544803] pnp: PnP ACPI init
+Feb 19 04:57:41 vccw kernel: [    0.544979] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Feb 19 04:57:41 vccw kernel: [    0.545151] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Feb 19 04:57:41 vccw kernel: [    0.546831] pnp: PnP ACPI: found 2 devices
+Feb 19 04:57:41 vccw kernel: [    0.557984] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Feb 19 04:57:41 vccw kernel: [    0.558027] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Feb 19 04:57:41 vccw kernel: [    0.558032] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Feb 19 04:57:41 vccw kernel: [    0.558036] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Feb 19 04:57:41 vccw kernel: [    0.558040] pci_bus 0000:00: resource 7 [mem 0x40000000-0xffdfffff window]
+Feb 19 04:57:41 vccw kernel: [    0.558132] NET: Registered protocol family 2
+Feb 19 04:57:41 vccw kernel: [    0.559334] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.559386] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.559446] TCP: Hash tables configured (established 8192 bind 8192)
+Feb 19 04:57:41 vccw kernel: [    0.559525] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.559538] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Feb 19 04:57:41 vccw kernel: [    0.559668] NET: Registered protocol family 1
+Feb 19 04:57:41 vccw kernel: [    0.559701] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Feb 19 04:57:41 vccw kernel: [    0.559799] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Feb 19 04:57:41 vccw kernel: [    0.559876] pci 0000:00:02.0: Video device with shadowed ROM
+Feb 19 04:57:41 vccw kernel: [    0.560043] PCI: CLS 0 bytes, default 64
+Feb 19 04:57:41 vccw kernel: [    0.560192] Unpacking initramfs...
+Feb 19 04:57:41 vccw kernel: [    1.458132] Freeing initrd memory: 26716K (ffff880034bc2000 - ffff8800365d9000)
+Feb 19 04:57:41 vccw kernel: [    1.458826] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Feb 19 04:57:41 vccw kernel: [    1.458890] Scanning for low memory corruption every 60 seconds
+Feb 19 04:57:41 vccw kernel: [    1.459644] audit: initializing netlink subsys (disabled)
+Feb 19 04:57:41 vccw kernel: [    1.459682] audit: type=2000 audit(1519016244.033:1): initialized
+Feb 19 04:57:41 vccw kernel: [    1.460151] Initialise system trusted keyring
+Feb 19 04:57:41 vccw kernel: [    1.460380] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Feb 19 04:57:41 vccw kernel: [    1.463365] zbud: loaded
+Feb 19 04:57:41 vccw kernel: [    1.463998] VFS: Disk quotas dquot_6.6.0
+Feb 19 04:57:41 vccw kernel: [    1.464072] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Feb 19 04:57:41 vccw kernel: [    1.464629] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 19 04:57:41 vccw kernel: [    1.465174] fuse init (API version 7.23)
+Feb 19 04:57:41 vccw kernel: [    1.465455] Key type big_key registered
+Feb 19 04:57:41 vccw kernel: [    1.465487] Allocating IMA MOK and blacklist keyrings.
+Feb 19 04:57:41 vccw kernel: [    1.466200] Key type asymmetric registered
+Feb 19 04:57:41 vccw kernel: [    1.466219] Asymmetric key parser 'x509' registered
+Feb 19 04:57:41 vccw kernel: [    1.466308] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 19 04:57:41 vccw kernel: [    1.466375] io scheduler noop registered
+Feb 19 04:57:41 vccw kernel: [    1.466381] io scheduler deadline registered (default)
+Feb 19 04:57:41 vccw kernel: [    1.466449] io scheduler cfq registered
+Feb 19 04:57:41 vccw kernel: [    1.466670] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Feb 19 04:57:41 vccw kernel: [    1.466685] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Feb 19 04:57:41 vccw kernel: [    1.467037] ACPI: AC Adapter [AC] (on-line)
+Feb 19 04:57:41 vccw kernel: [    1.467152] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Feb 19 04:57:41 vccw kernel: [    1.467160] ACPI: Power Button [PWRF]
+Feb 19 04:57:41 vccw kernel: [    1.467447] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Feb 19 04:57:41 vccw kernel: [    1.467453] ACPI: Sleep Button [SLPF]
+Feb 19 04:57:41 vccw kernel: [    1.467760] GHES: HEST is not enabled!
+Feb 19 04:57:41 vccw kernel: [    1.469592] ACPI: Battery Slot [BAT0] (battery present)
+Feb 19 04:57:41 vccw kernel: [    1.469694] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Feb 19 04:57:41 vccw kernel: [    1.474453] Linux agpgart interface v0.103
+Feb 19 04:57:41 vccw kernel: [    1.477259] loop: module loaded
+Feb 19 04:57:41 vccw kernel: [    1.477549] ata_piix 0000:00:01.1: version 2.13
+Feb 19 04:57:41 vccw kernel: [    1.479000] scsi host0: ata_piix
+Feb 19 04:57:41 vccw kernel: [    1.479168] scsi host1: ata_piix
+Feb 19 04:57:41 vccw kernel: [    1.479299] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Feb 19 04:57:41 vccw kernel: [    1.479303] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Feb 19 04:57:41 vccw kernel: [    1.479582] libphy: Fixed MDIO Bus: probed
+Feb 19 04:57:41 vccw kernel: [    1.479589] tun: Universal TUN/TAP device driver, 1.6
+Feb 19 04:57:41 vccw kernel: [    1.479592] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Feb 19 04:57:41 vccw kernel: [    1.480386] PPP generic driver version 2.4.2
+Feb 19 04:57:41 vccw kernel: [    1.480535] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 19 04:57:41 vccw kernel: [    1.480549] ehci-pci: EHCI PCI platform driver
+Feb 19 04:57:41 vccw kernel: [    1.480592] ehci-platform: EHCI generic platform driver
+Feb 19 04:57:41 vccw kernel: [    1.480613] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 19 04:57:41 vccw kernel: [    1.480623] ohci-pci: OHCI PCI platform driver
+Feb 19 04:57:41 vccw kernel: [    1.480645] ohci-platform: OHCI generic platform driver
+Feb 19 04:57:41 vccw kernel: [    1.480664] uhci_hcd: USB Universal Host Controller Interface driver
+Feb 19 04:57:41 vccw kernel: [    1.480807] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Feb 19 04:57:41 vccw kernel: [    1.481796] serio: i8042 KBD port at 0x60,0x64 irq 1
+Feb 19 04:57:41 vccw kernel: [    1.481811] serio: i8042 AUX port at 0x60,0x64 irq 12
+Feb 19 04:57:41 vccw kernel: [    1.482082] mousedev: PS/2 mouse device common for all mice
+Feb 19 04:57:41 vccw kernel: [    1.482819] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Feb 19 04:57:41 vccw kernel: [    1.483770] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Feb 19 04:57:41 vccw kernel: [    1.483921] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Feb 19 04:57:41 vccw kernel: [    1.483945] i2c /dev entries driver
+Feb 19 04:57:41 vccw kernel: [    1.484060] device-mapper: uevent: version 1.0.3
+Feb 19 04:57:41 vccw kernel: [    1.484202] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Feb 19 04:57:41 vccw kernel: [    1.484236] ledtrig-cpu: registered to indicate activity on CPUs
+Feb 19 04:57:41 vccw kernel: [    1.485524] NET: Registered protocol family 10
+Feb 19 04:57:41 vccw kernel: [    1.485892] NET: Registered protocol family 17
+Feb 19 04:57:41 vccw kernel: [    1.485918] Key type dns_resolver registered
+Feb 19 04:57:41 vccw kernel: [    1.486242] microcode: CPU0 sig=0x406c3, pf=0x8, revision=0x0
+Feb 19 04:57:41 vccw kernel: [    1.486315] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Feb 19 04:57:41 vccw kernel: [    1.486637] registered taskstats version 1
+Feb 19 04:57:41 vccw kernel: [    1.486663] Loading compiled-in X.509 certificates
+Feb 19 04:57:41 vccw kernel: [    1.488602] Loaded X.509 cert 'Build time autogenerated kernel key: 01a2b0d0dba8d37a863918580fc16590a7d146c8'
+Feb 19 04:57:41 vccw kernel: [    1.488646] zswap: loaded using pool lzo/zbud
+Feb 19 04:57:41 vccw kernel: [    1.493065] Key type trusted registered
+Feb 19 04:57:41 vccw kernel: [    1.501319] Key type encrypted registered
+Feb 19 04:57:41 vccw kernel: [    1.501339] AppArmor: AppArmor sha1 policy hashing enabled
+Feb 19 04:57:41 vccw kernel: [    1.501347] ima: No TPM chip found, activating TPM-bypass!
+Feb 19 04:57:41 vccw kernel: [    1.501391] evm: HMAC attrs: 0x1
+Feb 19 04:57:41 vccw kernel: [    1.502247]   Magic number: 6:267:970
+Feb 19 04:57:41 vccw kernel: [    1.502508] rtc_cmos rtc_cmos: setting system clock to 2018-02-19 04:57:17 UTC (1519016237)
+Feb 19 04:57:41 vccw kernel: [    1.502664] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Feb 19 04:57:41 vccw kernel: [    1.502667] EDD information not available.
+Feb 19 04:57:41 vccw kernel: [    1.502760] PM: Hibernation image not present or could not be loaded.
+Feb 19 04:57:41 vccw kernel: [    1.645145] Freeing unused kernel memory: 1488K (ffffffff81f45000 - ffffffff820b9000)
+Feb 19 04:57:41 vccw kernel: [    1.645155] Write protecting the kernel read-only data: 14336k
+Feb 19 04:57:41 vccw kernel: [    1.646904] Freeing unused kernel memory: 1752K (ffff88000184a000 - ffff880001a00000)
+Feb 19 04:57:41 vccw kernel: [    1.647816] Freeing unused kernel memory: 112K (ffff880001de4000 - ffff880001e00000)
+Feb 19 04:57:41 vccw kernel: [    1.682802] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.682877] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.685367] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.685584] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.685630] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.685684] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.711835] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.711893] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.711922] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.713754] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 04:57:41 vccw kernel: [    1.904686] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 19 04:57:41 vccw kernel: [    1.904836] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Feb 19 04:57:41 vccw kernel: [    1.911353] FUJITSU Extended Socket Network Device Driver - version 1.0 - Copyright (c) 2015 FUJITSU LIMITED
+Feb 19 04:57:41 vccw kernel: [    1.970481] ahci 0000:00:0d.0: version 3.0
+Feb 19 04:57:41 vccw kernel: [    1.972945] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Feb 19 04:57:41 vccw kernel: [    1.972950] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Feb 19 04:57:41 vccw kernel: [    1.977857] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Feb 19 04:57:41 vccw kernel: [    1.978253] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Feb 19 04:57:41 vccw kernel: [    1.978260] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Feb 19 04:57:41 vccw kernel: [    1.989779] scsi host2: ahci
+Feb 19 04:57:41 vccw kernel: [    1.989949] ata3: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Feb 19 04:57:41 vccw kernel: [    2.126394] SSE version of gcm_enc/dec engaged.
+Feb 19 04:57:41 vccw kernel: [    2.208344] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Feb 19 04:57:41 vccw kernel: [    2.318871] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Feb 19 04:57:41 vccw kernel: [    2.319072] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Feb 19 04:57:41 vccw kernel: [    2.319077] ata3.00: 83886080 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Feb 19 04:57:41 vccw kernel: [    2.319349] ata3.00: configured for UDMA/133
+Feb 19 04:57:41 vccw kernel: [    2.326102] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Feb 19 04:57:41 vccw kernel: [    2.326576] sd 2:0:0:0: [sda] 83886080 512-byte logical blocks: (42.9 GB/40.0 GiB)
+Feb 19 04:57:41 vccw kernel: [    2.326692] sd 2:0:0:0: [sda] Write Protect is off
+Feb 19 04:57:41 vccw kernel: [    2.326698] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Feb 19 04:57:41 vccw kernel: [    2.326749] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Feb 19 04:57:41 vccw kernel: [    2.327471] sd 2:0:0:0: Attached scsi generic sg0 type 0
+Feb 19 04:57:41 vccw kernel: [    2.355900]  sda: sda1 sda2 < sda5 >
+Feb 19 04:57:41 vccw kernel: [    2.356609] sd 2:0:0:0: [sda] Attached SCSI disk
+Feb 19 04:57:41 vccw kernel: [    2.460135] tsc: Refined TSC clocksource calibration: 1599.461 MHz
+Feb 19 04:57:41 vccw kernel: [    2.460144] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x170e27b6141, max_idle_ns: 440795231052 ns
+Feb 19 04:57:41 vccw kernel: [    2.790540] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:a8:df:8b
+Feb 19 04:57:41 vccw kernel: [    2.790555] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Feb 19 04:57:41 vccw kernel: [    3.308365] e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:8f:6b:90
+Feb 19 04:57:41 vccw kernel: [    3.308375] e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Feb 19 04:57:41 vccw kernel: [    3.311052] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Feb 19 04:57:41 vccw kernel: [    3.315881] e1000 0000:00:08.0 enp0s8: renamed from eth1
+Feb 19 04:57:41 vccw kernel: [    5.000118] floppy0: no floppy controllers found
+Feb 19 04:57:41 vccw kernel: [    5.000274] work still pending
+Feb 19 04:57:41 vccw kernel: [    6.686151] md: linear personality registered for level -1
+Feb 19 04:57:41 vccw kernel: [    6.694429] md: multipath personality registered for level -4
+Feb 19 04:57:41 vccw kernel: [    6.702957] md: raid0 personality registered for level 0
+Feb 19 04:57:41 vccw kernel: [    6.713069] md: raid1 personality registered for level 1
+Feb 19 04:57:41 vccw kernel: [    6.799454] raid6: sse2x1   gen()  1235 MB/s
+Feb 19 04:57:41 vccw kernel: [    6.879414] raid6: sse2x1   xor()  2475 MB/s
+Feb 19 04:57:41 vccw kernel: [    6.951538] raid6: sse2x2   gen()  1213 MB/s
+Feb 19 04:57:41 vccw kernel: [    7.024100] raid6: sse2x2   xor()  2395 MB/s
+Feb 19 04:57:41 vccw kernel: [    7.091887] raid6: sse2x4   gen()  1134 MB/s
+Feb 19 04:57:41 vccw kernel: [    7.162126] raid6: sse2x4   xor()  1058 MB/s
+Feb 19 04:57:41 vccw kernel: [    7.162133] raid6: using algorithm sse2x1 gen() 1235 MB/s
+Feb 19 04:57:41 vccw kernel: [    7.162135] raid6: .... xor() 2475 MB/s, rmw enabled
+Feb 19 04:57:41 vccw kernel: [    7.162138] raid6: using ssse3x2 recovery algorithm
+Feb 19 04:57:41 vccw kernel: [    7.167944] xor: measuring software checksum speed
+Feb 19 04:57:41 vccw kernel: [    7.249800]    prefetch64-sse: 18506.000 MB/sec
+Feb 19 04:57:41 vccw kernel: [    7.339730]    generic_sse: 15524.000 MB/sec
+Feb 19 04:57:41 vccw kernel: [    7.339736] xor: using function: prefetch64-sse (18506.000 MB/sec)
+Feb 19 04:57:41 vccw kernel: [    7.344422] async_tx: api initialized (async)
+Feb 19 04:57:41 vccw kernel: [    7.374434] md: raid6 personality registered for level 6
+Feb 19 04:57:41 vccw kernel: [    7.374440] md: raid5 personality registered for level 5
+Feb 19 04:57:41 vccw kernel: [    7.374443] md: raid4 personality registered for level 4
+Feb 19 04:57:41 vccw kernel: [    7.393065] md: raid10 personality registered for level 10
+Feb 19 04:57:41 vccw kernel: [    7.950151] Btrfs loaded
+Feb 19 04:57:41 vccw kernel: [    9.639244] random: nonblocking pool is initialized
+Feb 19 04:57:41 vccw kernel: [   11.007495] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Feb 19 04:57:41 vccw kernel: [   15.542948] EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Feb 19 04:57:41 vccw kernel: [   15.613312] Loading iSCSI transport class v2.0-870.
+Feb 19 04:57:41 vccw kernel: [   15.807555] iscsi: registered transport (tcp)
+Feb 19 04:57:41 vccw kernel: [   16.106157] RPC: Registered named UNIX socket transport module.
+Feb 19 04:57:41 vccw kernel: [   16.106163] RPC: Registered udp transport module.
+Feb 19 04:57:41 vccw kernel: [   16.106165] RPC: Registered tcp transport module.
+Feb 19 04:57:41 vccw kernel: [   16.106167] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 19 04:57:41 vccw kernel: [   16.675719] iscsi: registered transport (iser)
+Feb 19 04:57:41 vccw kernel: [   17.880139] vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Feb 19 04:57:41 vccw kernel: [   17.920602] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Feb 19 04:57:41 vccw kernel: [   18.075000] [drm] Initialized drm 1.1.0 20060810
+Feb 19 04:57:41 vccw kernel: [   18.120571] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Feb 19 04:57:41 vccw kernel: [   18.120816] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input6
+Feb 19 04:57:41 vccw kernel: [   18.124851] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Feb 19 04:57:41 vccw kernel: [   18.124858] vboxguest: Successfully loaded version 5.1.24 (interface 0x00010004)
+Feb 19 04:57:41 vccw kernel: [   18.155038] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+Feb 19 04:57:41 vccw kernel: [   18.573978] intel_powerclamp: No package C-state available
+Feb 19 04:57:41 vccw kernel: [   18.633950] intel_rapl: no valid rapl domains found in package 0
+Feb 19 04:57:41 vccw kernel: [   18.661905] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 70162 usecs (13569 samples)
+Feb 19 04:57:41 vccw kernel: [   18.661914] snd_intel8x0 0000:00:05.0: measured clock 193395 rejected
+Feb 19 04:57:41 vccw kernel: [   19.020078] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 54310 usecs (12688 samples)
+Feb 19 04:57:41 vccw kernel: [   19.020086] snd_intel8x0 0000:00:05.0: measured clock 233621 rejected
+Feb 19 04:57:41 vccw kernel: [   19.386205] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 57607 usecs (12689 samples)
+Feb 19 04:57:41 vccw kernel: [   19.386215] snd_intel8x0 0000:00:05.0: measured clock 220268 rejected
+Feb 19 04:57:41 vccw kernel: [   19.386221] snd_intel8x0 0000:00:05.0: clocking to 48000
+Feb 19 04:57:41 vccw kernel: [   19.391628] [drm] VRAM 00800000
+Feb 19 04:57:41 vccw kernel: [   19.395774] [TTM] Zone  kernel: Available graphics memory: 508046 kiB
+Feb 19 04:57:41 vccw kernel: [   19.395781] [TTM] Initializing pool allocator
+Feb 19 04:57:41 vccw kernel: [   19.395791] [TTM] Initializing DMA pool allocator
+Feb 19 04:57:41 vccw kernel: [   19.396621] fbcon: vboxdrmfb (fb0) is primary device
+Feb 19 04:57:41 vccw kernel: [   19.546083] Console: switching to colour frame buffer device 100x37
+Feb 19 04:57:41 vccw kernel: [   19.563873] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Feb 19 04:57:41 vccw kernel: [   19.563885] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Feb 19 04:57:41 vccw kernel: [   21.030471] ppdev: user-space parallel port driver
+Feb 19 04:57:41 vccw kernel: [   21.120378] floppy0: no floppy controllers found
+Feb 19 04:57:41 vccw kernel: [   21.461626] Adding 1048572k swap on /dev/mapper/vagrant--vg-swap_1.  Priority:-1 extents:1 across:1048572k FS
+Feb 19 04:57:41 vccw kernel: [   22.986282] EXT4-fs (sda1): mounting ext2 file system using the ext4 subsystem
+Feb 19 04:57:41 vccw kernel: [   23.011070] EXT4-fs (sda1): mounted filesystem without journal. Opts: (null)
+Feb 19 04:57:41 vccw kernel: [   24.208876] audit: type=1400 audit(1519016260.204:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=852 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.208896] audit: type=1400 audit(1519016260.204:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=852 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.208910] audit: type=1400 audit(1519016260.204:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=852 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.208921] audit: type=1400 audit(1519016260.204:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=852 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.288507] audit: type=1400 audit(1519016260.284:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=853 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.288529] audit: type=1400 audit(1519016260.284:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=853 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.288541] audit: type=1400 audit(1519016260.284:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=853 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.288552] audit: type=1400 audit(1519016260.284:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=853 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.293806] audit: type=1400 audit(1519016260.288:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=854 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.310131] audit: type=1400 audit(1519016260.304:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=855 comm="apparmor_parser"
+Feb 19 04:57:41 vccw kernel: [   24.877815] IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Feb 19 04:57:41 vccw kernel: [   24.878835] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 19 04:57:41 vccw kernel: [   24.880447] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Feb 19 04:57:41 vccw kernel: [   25.409882] cgroup: new mount options do not match the existing superblock, will be ignored
+Feb 19 04:57:42 vccw kernel: [   26.496182] vboxsf: Successfully loaded version 5.1.24 (interface 0x00010004)
+Feb 19 04:57:43 vccw kernel: [   27.993696] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Feb 19 04:57:43 vccw kernel: [   27.994441] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 19 04:57:43 vccw kernel: [   27.998070] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Feb 19 04:57:47 vccw kernel: [   31.139898] VBoxService 5.1.24 r117012 (verbosity: 0) linux.amd64 (Jul 17 2017 17:16:12) release log
+Feb 19 04:57:47 vccw kernel: [   31.139898] 00:00:00.000276 main     Log opened 2018-02-19T04:57:47.137226000Z
+Feb 19 04:57:47 vccw kernel: [   31.140845] 00:00:00.001251 main     OS Product: Linux
+Feb 19 04:57:47 vccw kernel: [   31.140908] 00:00:00.001405 main     OS Release: 4.4.0-92-generic
+Feb 19 04:57:47 vccw kernel: [   31.140969] 00:00:00.001465 main     OS Version: #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017
+Feb 19 04:57:47 vccw kernel: [   31.141053] 00:00:00.001526 main     Executable: /opt/VBoxGuestAdditions-5.1.24/sbin/VBoxService
+Feb 19 04:57:47 vccw kernel: [   31.141053] 00:00:00.001529 main     Process ID: 1343
+Feb 19 04:57:47 vccw kernel: [   31.141053] 00:00:00.001531 main     Package type: LINUX_64BITS_GENERIC
+Feb 19 04:57:47 vccw kernel: [   31.147973] 00:00:00.008401 main     5.1.24 r117012 started. Verbose level = 0
+Feb 19 04:57:48 vccw kernel: [   32.400353] audit_printk_skb: 12 callbacks suppressed
+Feb 19 04:57:48 vccw kernel: [   32.400359] audit: type=1400 audit(1519016268.396:16): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/1331/status" pid=1331 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=112 ouid=112
+Feb 19 04:57:48 vccw kernel: [   32.400482] audit: type=1400 audit(1519016268.396:17): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=1331 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=112 ouid=0
+Feb 19 04:57:48 vccw kernel: [   32.400618] audit: type=1400 audit(1519016268.396:18): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/1331/status" pid=1331 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=112 ouid=112
+Feb 19 04:58:12 vccw kernel: [   56.398388] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 19 04:58:12 vccw kernel: [   56.399143] IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Feb 19 04:58:12 vccw kernel: [   56.399186] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Feb 19 05:17:48 vccw kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 19 05:17:48 vccw kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 19 05:17:48 vccw kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 19 05:17:48 vccw kernel: [    0.000000] Linux version 4.4.0-92-generic (buildd@lcy01-17) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017 (Ubuntu 4.4.0-92.115-generic 4.4.76)
+Feb 19 05:17:48 vccw kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-4.4.0-92-generic root=/dev/mapper/vagrant--vg-root ro quiet
+Feb 19 05:17:48 vccw kernel: [    0.000000] KERNEL supported cpus:
+Feb 19 05:17:48 vccw kernel: [    0.000000]   Intel GenuineIntel
+Feb 19 05:17:48 vccw kernel: [    0.000000]   AMD AuthenticAMD
+Feb 19 05:17:48 vccw kernel: [    0.000000]   Centaur CentaurHauls
+Feb 19 05:17:48 vccw kernel: [    0.000000] x86/fpu: Legacy x87 FPU detected.
+Feb 19 05:17:48 vccw kernel: [    0.000000] x86/fpu: Using 'lazy' FPU context switches.
+Feb 19 05:17:48 vccw kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Feb 19 05:17:48 vccw kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Feb 19 05:17:48 vccw kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Feb 19 05:17:48 vccw kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Feb 19 05:17:48 vccw kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Feb 19 05:17:48 vccw kernel: [    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Feb 19 05:17:48 vccw kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Feb 19 05:17:48 vccw kernel: [    0.000000] NX (Execute Disable) protection: active
+Feb 19 05:17:48 vccw kernel: [    0.000000] SMBIOS 2.5 present.
+Feb 19 05:17:48 vccw kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Feb 19 05:17:48 vccw kernel: [    0.000000] Hypervisor detected: KVM
+Feb 19 05:17:48 vccw kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Feb 19 05:17:48 vccw kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Feb 19 05:17:48 vccw kernel: [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+Feb 19 05:17:48 vccw kernel: [    0.000000] MTRR default type: uncachable
+Feb 19 05:17:48 vccw kernel: [    0.000000] MTRR variable ranges disabled:
+Feb 19 05:17:48 vccw kernel: [    0.000000] MTRR: Disabled
+Feb 19 05:17:48 vccw kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Feb 19 05:17:48 vccw kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Feb 19 05:17:48 vccw kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Feb 19 05:17:48 vccw kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+Feb 19 05:17:48 vccw kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Feb 19 05:17:48 vccw kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Feb 19 05:17:48 vccw kernel: [    0.000000] BRK [0x0220c000, 0x0220cfff] PGTABLE
+Feb 19 05:17:48 vccw kernel: [    0.000000] BRK [0x0220d000, 0x0220dfff] PGTABLE
+Feb 19 05:17:48 vccw kernel: [    0.000000] BRK [0x0220e000, 0x0220efff] PGTABLE
+Feb 19 05:17:48 vccw kernel: [    0.000000] BRK [0x0220f000, 0x0220ffff] PGTABLE
+Feb 19 05:17:48 vccw kernel: [    0.000000] RAMDISK: [mem 0x34bc2000-0x365d8fff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: FACP 0x000000003FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: DSDT 0x000000003FFF0470 002118 (v01 VBOX   VBOXBIOS 00000002 INTL 20160108)
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: APIC 0x000000003FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: SSDT 0x000000003FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20160108)
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 19 05:17:48 vccw kernel: [    0.000000] No NUMA configuration found
+Feb 19 05:17:48 vccw kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3ffeb000-0x3ffeffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Feb 19 05:17:48 vccw kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3ffe3001, primary cpu clock
+Feb 19 05:17:48 vccw kernel: [    0.000000] kvm-clock: using sched offset of 5326831243 cycles
+Feb 19 05:17:48 vccw kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Feb 19 05:17:48 vccw kernel: [    0.000000] Zone ranges:
+Feb 19 05:17:48 vccw kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003ffeffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000]   Normal   empty
+Feb 19 05:17:48 vccw kernel: [    0.000000]   Device   empty
+Feb 19 05:17:48 vccw kernel: [    0.000000] Movable zone start for each node
+Feb 19 05:17:48 vccw kernel: [    0.000000] Early memory node ranges
+Feb 19 05:17:48 vccw kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Feb 19 05:17:48 vccw kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003ffeffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffeffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] On node 0 totalpages: 262030
+Feb 19 05:17:48 vccw kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Feb 19 05:17:48 vccw kernel: [    0.000000]   DMA zone: 21 pages reserved
+Feb 19 05:17:48 vccw kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Feb 19 05:17:48 vccw kernel: [    0.000000]   DMA32 zone: 4032 pages used for memmap
+Feb 19 05:17:48 vccw kernel: [    0.000000]   DMA32 zone: 258032 pages, LIFO batch:31
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 19 05:17:48 vccw kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-23
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 19 05:17:48 vccw kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 19 05:17:48 vccw kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Feb 19 05:17:48 vccw kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Feb 19 05:17:48 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Feb 19 05:17:48 vccw kernel: [    0.000000] e820: [mem 0x40000000-0xfffbffff] available for PCI devices
+Feb 19 05:17:48 vccw kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Feb 19 05:17:48 vccw kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Feb 19 05:17:48 vccw kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Feb 19 05:17:48 vccw kernel: [    0.000000] PERCPU: Embedded 33 pages/cpu @ffff88003fc00000 s98264 r8192 d28712 u2097152
+Feb 19 05:17:48 vccw kernel: [    0.000000] pcpu-alloc: s98264 r8192 d28712 u2097152 alloc=1*2097152
+Feb 19 05:17:48 vccw kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 19 05:17:48 vccw kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257913
+Feb 19 05:17:48 vccw kernel: [    0.000000] Policy zone: DMA32
+Feb 19 05:17:48 vccw kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-4.4.0-92-generic root=/dev/mapper/vagrant--vg-root ro quiet
+Feb 19 05:17:48 vccw kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Feb 19 05:17:48 vccw kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Feb 19 05:17:48 vccw kernel: [    0.000000] Memory: 985992K/1048120K available (8474K kernel code, 1294K rwdata, 3984K rodata, 1488K init, 1316K bss, 62128K reserved, 0K cma-reserved)
+Feb 19 05:17:48 vccw kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 19 05:17:48 vccw kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 19 05:17:48 vccw kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Feb 19 05:17:48 vccw kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+Feb 19 05:17:48 vccw kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+Feb 19 05:17:48 vccw kernel: [    0.000000] NR_IRQS:33024 nr_irqs:256 16
+Feb 19 05:17:48 vccw kernel: [    0.000000] Console: colour VGA+ 80x25
+Feb 19 05:17:48 vccw kernel: [    0.000000] console [tty0] enabled
+Feb 19 05:17:48 vccw kernel: [    0.000000] tsc: Detected 1599.947 MHz processor
+Feb 19 05:17:48 vccw kernel: [    0.094433] Calibrating delay loop (skipped) preset value.. 3199.89 BogoMIPS (lpj=6399788)
+Feb 19 05:17:48 vccw kernel: [    0.094440] pid_max: default: 32768 minimum: 301
+Feb 19 05:17:48 vccw kernel: [    0.094451] ACPI: Core revision 20150930
+Feb 19 05:17:48 vccw kernel: [    0.096957] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Feb 19 05:17:48 vccw kernel: [    0.096997] Security Framework initialized
+Feb 19 05:17:48 vccw kernel: [    0.097001] Yama: becoming mindful.
+Feb 19 05:17:48 vccw kernel: [    0.097032] AppArmor: AppArmor initialized
+Feb 19 05:17:48 vccw kernel: [    0.097193] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.097657] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.097886] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.097894] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.098342] Initializing cgroup subsys io
+Feb 19 05:17:48 vccw kernel: [    0.098415] Initializing cgroup subsys memory
+Feb 19 05:17:48 vccw kernel: [    0.098432] Initializing cgroup subsys devices
+Feb 19 05:17:48 vccw kernel: [    0.098438] Initializing cgroup subsys freezer
+Feb 19 05:17:48 vccw kernel: [    0.098444] Initializing cgroup subsys net_cls
+Feb 19 05:17:48 vccw kernel: [    0.098449] Initializing cgroup subsys perf_event
+Feb 19 05:17:48 vccw kernel: [    0.098454] Initializing cgroup subsys net_prio
+Feb 19 05:17:48 vccw kernel: [    0.098464] Initializing cgroup subsys hugetlb
+Feb 19 05:17:48 vccw kernel: [    0.098469] Initializing cgroup subsys pids
+Feb 19 05:17:48 vccw kernel: [    0.098674] CPU: Physical Processor ID: 0
+Feb 19 05:17:48 vccw kernel: [    0.104224] mce: CPU supports 0 MCE banks
+Feb 19 05:17:48 vccw kernel: [    0.104284] process: using mwait in idle threads
+Feb 19 05:17:48 vccw kernel: [    0.104298] Last level iTLB entries: 4KB 48, 2MB 0, 4MB 0
+Feb 19 05:17:48 vccw kernel: [    0.104301] Last level dTLB entries: 4KB 256, 2MB 16, 4MB 16, 1GB 0
+Feb 19 05:17:48 vccw kernel: [    0.151144] Freeing SMP alternatives memory: 32K (ffffffff820b9000 - ffffffff820c1000)
+Feb 19 05:17:48 vccw kernel: [    0.174879] ftrace: allocating 32131 entries in 126 pages
+Feb 19 05:17:48 vccw kernel: [    0.303290] smpboot: APIC(0) Converting physical 0 to logical package 0
+Feb 19 05:17:48 vccw kernel: [    0.303295] smpboot: Max logical packages: 1
+Feb 19 05:17:48 vccw kernel: [    0.306487] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Feb 19 05:17:48 vccw kernel: [    0.398411] APIC calibration not consistent with PM-Timer: 96ms instead of 100ms
+Feb 19 05:17:48 vccw kernel: [    0.398417] APIC delta adjusted to PM-Timer: 6769967 (6502538)
+Feb 19 05:17:48 vccw kernel: [    0.398596] smpboot: CPU0: Intel(R) Celeron(R) CPU  N3050  @ 1.60GHz (family: 0x6, model: 0x4c, stepping: 0x3)
+Feb 19 05:17:48 vccw kernel: [    0.398644] Performance Events: unsupported p6 CPU model 76 no PMU driver, software events only.
+Feb 19 05:17:48 vccw kernel: [    0.398712] KVM setup paravirtual spinlock
+Feb 19 05:17:48 vccw kernel: [    0.400098] x86: Booted up 1 node, 1 CPUs
+Feb 19 05:17:48 vccw kernel: [    0.400105] smpboot: Total of 1 processors activated (3199.89 BogoMIPS)
+Feb 19 05:17:48 vccw kernel: [    0.400840] devtmpfs: initialized
+Feb 19 05:17:48 vccw kernel: [    0.407147] evm: security.selinux
+Feb 19 05:17:48 vccw kernel: [    0.407151] evm: security.SMACK64
+Feb 19 05:17:48 vccw kernel: [    0.407153] evm: security.SMACK64EXEC
+Feb 19 05:17:48 vccw kernel: [    0.407155] evm: security.SMACK64TRANSMUTE
+Feb 19 05:17:48 vccw kernel: [    0.407157] evm: security.SMACK64MMAP
+Feb 19 05:17:48 vccw kernel: [    0.407158] evm: security.ima
+Feb 19 05:17:48 vccw kernel: [    0.407160] evm: security.capability
+Feb 19 05:17:48 vccw kernel: [    0.407402] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Feb 19 05:17:48 vccw kernel: [    0.407419] futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.407596] pinctrl core: initialized pinctrl subsystem
+Feb 19 05:17:48 vccw kernel: [    0.407857] RTC time:  5:17:28, date: 02/19/18
+Feb 19 05:17:48 vccw kernel: [    0.408174] NET: Registered protocol family 16
+Feb 19 05:17:48 vccw kernel: [    0.408503] cpuidle: using governor ladder
+Feb 19 05:17:48 vccw kernel: [    0.408508] cpuidle: using governor menu
+Feb 19 05:17:48 vccw kernel: [    0.408514] PCCT header not found.
+Feb 19 05:17:48 vccw kernel: [    0.408629] ACPI: bus type PCI registered
+Feb 19 05:17:48 vccw kernel: [    0.408634] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Feb 19 05:17:48 vccw kernel: [    0.408868] PCI: Using configuration type 1 for base access
+Feb 19 05:17:48 vccw kernel: [    0.413191] ACPI: Added _OSI(Module Device)
+Feb 19 05:17:48 vccw kernel: [    0.413198] ACPI: Added _OSI(Processor Device)
+Feb 19 05:17:48 vccw kernel: [    0.413200] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 19 05:17:48 vccw kernel: [    0.413203] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 19 05:17:48 vccw kernel: [    0.414881] ACPI: Executed 1 blocks of module-level executable AML code
+Feb 19 05:17:48 vccw kernel: [    0.419850] ACPI: Interpreter enabled
+Feb 19 05:17:48 vccw kernel: [    0.419874] ACPI: (supports S0 S5)
+Feb 19 05:17:48 vccw kernel: [    0.419878] ACPI: Using IOAPIC for interrupt routing
+Feb 19 05:17:48 vccw kernel: [    0.420395] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Feb 19 05:17:48 vccw kernel: [    0.430430] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Feb 19 05:17:48 vccw kernel: [    0.430443] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Feb 19 05:17:48 vccw kernel: [    0.430454] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Feb 19 05:17:48 vccw kernel: [    0.430469] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Feb 19 05:17:48 vccw kernel: [    0.431147] PCI host bridge to bus 0000:00
+Feb 19 05:17:48 vccw kernel: [    0.431154] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Feb 19 05:17:48 vccw kernel: [    0.431158] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Feb 19 05:17:48 vccw kernel: [    0.431162] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Feb 19 05:17:48 vccw kernel: [    0.431166] pci_bus 0000:00: root bus resource [mem 0x40000000-0xffdfffff window]
+Feb 19 05:17:48 vccw kernel: [    0.431170] pci_bus 0000:00: root bus resource [bus 00-ff]
+Feb 19 05:17:48 vccw kernel: [    0.431269] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Feb 19 05:17:48 vccw kernel: [    0.432563] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Feb 19 05:17:48 vccw kernel: [    0.434183] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Feb 19 05:17:48 vccw kernel: [    0.435155] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Feb 19 05:17:48 vccw kernel: [    0.435588] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Feb 19 05:17:48 vccw kernel: [    0.435593] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Feb 19 05:17:48 vccw kernel: [    0.435597] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Feb 19 05:17:48 vccw kernel: [    0.435600] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Feb 19 05:17:48 vccw kernel: [    0.436096] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Feb 19 05:17:48 vccw kernel: [    0.438667] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe07fffff pref]
+Feb 19 05:17:48 vccw kernel: [    0.453673] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Feb 19 05:17:48 vccw kernel: [    0.456120] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Feb 19 05:17:48 vccw kernel: [    0.460034] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Feb 19 05:17:48 vccw kernel: [    0.468972] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Feb 19 05:17:48 vccw kernel: [    0.471006] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Feb 19 05:17:48 vccw kernel: [    0.473175] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Feb 19 05:17:48 vccw kernel: [    0.475151] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Feb 19 05:17:48 vccw kernel: [    0.483902] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Feb 19 05:17:48 vccw kernel: [    0.484180] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Feb 19 05:17:48 vccw kernel: [    0.484350] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Feb 19 05:17:48 vccw kernel: [    0.485749] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Feb 19 05:17:48 vccw kernel: [    0.487627] pci 0000:00:08.0: [8086:100e] type 00 class 0x020000
+Feb 19 05:17:48 vccw kernel: [    0.490020] pci 0000:00:08.0: reg 0x10: [mem 0xf0820000-0xf083ffff]
+Feb 19 05:17:48 vccw kernel: [    0.493800] pci 0000:00:08.0: reg 0x18: [io  0xd240-0xd247]
+Feb 19 05:17:48 vccw kernel: [    0.502978] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Feb 19 05:17:48 vccw kernel: [    0.505242] pci 0000:00:0d.0: reg 0x10: [io  0xd248-0xd24f]
+Feb 19 05:17:48 vccw kernel: [    0.509274] pci 0000:00:0d.0: reg 0x18: [io  0xd258-0xd25f]
+Feb 19 05:17:48 vccw kernel: [    0.513247] pci 0000:00:0d.0: reg 0x20: [io  0xd270-0xd27f]
+Feb 19 05:17:48 vccw kernel: [    0.515218] pci 0000:00:0d.0: reg 0x24: [mem 0xf0840000-0xf0841fff]
+Feb 19 05:17:48 vccw kernel: [    0.521069] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Feb 19 05:17:48 vccw kernel: [    0.521686] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Feb 19 05:17:48 vccw kernel: [    0.521927] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Feb 19 05:17:48 vccw kernel: [    0.522167] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Feb 19 05:17:48 vccw kernel: [    0.522486] ACPI: Enabled 2 GPEs in block 00 to 07
+Feb 19 05:17:48 vccw kernel: [    0.523054] vgaarb: setting as boot device: PCI:0000:00:02.0
+Feb 19 05:17:48 vccw kernel: [    0.523060] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Feb 19 05:17:48 vccw kernel: [    0.523065] vgaarb: loaded
+Feb 19 05:17:48 vccw kernel: [    0.523068] vgaarb: bridge control possible 0000:00:02.0
+Feb 19 05:17:48 vccw kernel: [    0.523686] SCSI subsystem initialized
+Feb 19 05:17:48 vccw kernel: [    0.523829] libata version 3.00 loaded.
+Feb 19 05:17:48 vccw kernel: [    0.523909] ACPI: bus type USB registered
+Feb 19 05:17:48 vccw kernel: [    0.523975] usbcore: registered new interface driver usbfs
+Feb 19 05:17:48 vccw kernel: [    0.524003] usbcore: registered new interface driver hub
+Feb 19 05:17:48 vccw kernel: [    0.524030] usbcore: registered new device driver usb
+Feb 19 05:17:48 vccw kernel: [    0.524452] PCI: Using ACPI for IRQ routing
+Feb 19 05:17:48 vccw kernel: [    0.524458] PCI: pci_cache_line_size set to 64 bytes
+Feb 19 05:17:48 vccw kernel: [    0.524941] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Feb 19 05:17:48 vccw kernel: [    0.524955] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+Feb 19 05:17:48 vccw kernel: [    0.525257] NetLabel: Initializing
+Feb 19 05:17:48 vccw kernel: [    0.525260] NetLabel:  domain hash size = 128
+Feb 19 05:17:48 vccw kernel: [    0.525262] NetLabel:  protocols = UNLABELED CIPSOv4
+Feb 19 05:17:48 vccw kernel: [    0.525285] NetLabel:  unlabeled traffic allowed by default
+Feb 19 05:17:48 vccw kernel: [    0.525516] amd_nb: Cannot enumerate AMD northbridges
+Feb 19 05:17:48 vccw kernel: [    0.525544] clocksource: Switched to clocksource kvm-clock
+Feb 19 05:17:48 vccw kernel: [    0.542658] AppArmor: AppArmor Filesystem Enabled
+Feb 19 05:17:48 vccw kernel: [    0.542799] pnp: PnP ACPI init
+Feb 19 05:17:48 vccw kernel: [    0.542985] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Feb 19 05:17:48 vccw kernel: [    0.543244] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Feb 19 05:17:48 vccw kernel: [    0.544910] pnp: PnP ACPI: found 2 devices
+Feb 19 05:17:48 vccw kernel: [    0.553895] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Feb 19 05:17:48 vccw kernel: [    0.553929] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Feb 19 05:17:48 vccw kernel: [    0.553934] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Feb 19 05:17:48 vccw kernel: [    0.553937] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Feb 19 05:17:48 vccw kernel: [    0.553941] pci_bus 0000:00: resource 7 [mem 0x40000000-0xffdfffff window]
+Feb 19 05:17:48 vccw kernel: [    0.554018] NET: Registered protocol family 2
+Feb 19 05:17:48 vccw kernel: [    0.554428] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.554467] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.554523] TCP: Hash tables configured (established 8192 bind 8192)
+Feb 19 05:17:48 vccw kernel: [    0.554597] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.554610] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Feb 19 05:17:48 vccw kernel: [    0.554703] NET: Registered protocol family 1
+Feb 19 05:17:48 vccw kernel: [    0.554734] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Feb 19 05:17:48 vccw kernel: [    0.554828] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Feb 19 05:17:48 vccw kernel: [    0.554904] pci 0000:00:02.0: Video device with shadowed ROM
+Feb 19 05:17:48 vccw kernel: [    0.555073] PCI: CLS 0 bytes, default 64
+Feb 19 05:17:48 vccw kernel: [    0.555220] Unpacking initramfs...
+Feb 19 05:17:48 vccw kernel: [    1.388515] Freeing initrd memory: 26716K (ffff880034bc2000 - ffff8800365d9000)
+Feb 19 05:17:48 vccw kernel: [    1.389596] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Feb 19 05:17:48 vccw kernel: [    1.389662] Scanning for low memory corruption every 60 seconds
+Feb 19 05:17:48 vccw kernel: [    1.390296] audit: initializing netlink subsys (disabled)
+Feb 19 05:17:48 vccw kernel: [    1.390333] audit: type=2000 audit(1519017455.924:1): initialized
+Feb 19 05:17:48 vccw kernel: [    1.390797] Initialise system trusted keyring
+Feb 19 05:17:48 vccw kernel: [    1.391016] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Feb 19 05:17:48 vccw kernel: [    1.394023] zbud: loaded
+Feb 19 05:17:48 vccw kernel: [    1.394594] VFS: Disk quotas dquot_6.6.0
+Feb 19 05:17:48 vccw kernel: [    1.394667] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Feb 19 05:17:48 vccw kernel: [    1.395221] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 19 05:17:48 vccw kernel: [    1.395811] fuse init (API version 7.23)
+Feb 19 05:17:48 vccw kernel: [    1.396095] Key type big_key registered
+Feb 19 05:17:48 vccw kernel: [    1.396127] Allocating IMA MOK and blacklist keyrings.
+Feb 19 05:17:48 vccw kernel: [    1.396839] Key type asymmetric registered
+Feb 19 05:17:48 vccw kernel: [    1.396857] Asymmetric key parser 'x509' registered
+Feb 19 05:17:48 vccw kernel: [    1.396950] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 19 05:17:48 vccw kernel: [    1.397016] io scheduler noop registered
+Feb 19 05:17:48 vccw kernel: [    1.397022] io scheduler deadline registered (default)
+Feb 19 05:17:48 vccw kernel: [    1.397089] io scheduler cfq registered
+Feb 19 05:17:48 vccw kernel: [    1.397312] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Feb 19 05:17:48 vccw kernel: [    1.397327] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Feb 19 05:17:48 vccw kernel: [    1.397707] ACPI: AC Adapter [AC] (on-line)
+Feb 19 05:17:48 vccw kernel: [    1.397824] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Feb 19 05:17:48 vccw kernel: [    1.397833] ACPI: Power Button [PWRF]
+Feb 19 05:17:48 vccw kernel: [    1.397985] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Feb 19 05:17:48 vccw kernel: [    1.397991] ACPI: Sleep Button [SLPF]
+Feb 19 05:17:48 vccw kernel: [    1.398291] GHES: HEST is not enabled!
+Feb 19 05:17:48 vccw kernel: [    1.400169] ACPI: Battery Slot [BAT0] (battery present)
+Feb 19 05:17:48 vccw kernel: [    1.400275] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Feb 19 05:17:48 vccw kernel: [    1.405041] Linux agpgart interface v0.103
+Feb 19 05:17:48 vccw kernel: [    1.407943] loop: module loaded
+Feb 19 05:17:48 vccw kernel: [    1.408237] ata_piix 0000:00:01.1: version 2.13
+Feb 19 05:17:48 vccw kernel: [    1.409272] scsi host0: ata_piix
+Feb 19 05:17:48 vccw kernel: [    1.409428] scsi host1: ata_piix
+Feb 19 05:17:48 vccw kernel: [    1.409509] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Feb 19 05:17:48 vccw kernel: [    1.409513] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Feb 19 05:17:48 vccw kernel: [    1.409800] libphy: Fixed MDIO Bus: probed
+Feb 19 05:17:48 vccw kernel: [    1.409808] tun: Universal TUN/TAP device driver, 1.6
+Feb 19 05:17:48 vccw kernel: [    1.409810] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Feb 19 05:17:48 vccw kernel: [    1.410617] PPP generic driver version 2.4.2
+Feb 19 05:17:48 vccw kernel: [    1.410766] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 19 05:17:48 vccw kernel: [    1.410780] ehci-pci: EHCI PCI platform driver
+Feb 19 05:17:48 vccw kernel: [    1.410824] ehci-platform: EHCI generic platform driver
+Feb 19 05:17:48 vccw kernel: [    1.410845] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 19 05:17:48 vccw kernel: [    1.410855] ohci-pci: OHCI PCI platform driver
+Feb 19 05:17:48 vccw kernel: [    1.410877] ohci-platform: OHCI generic platform driver
+Feb 19 05:17:48 vccw kernel: [    1.410896] uhci_hcd: USB Universal Host Controller Interface driver
+Feb 19 05:17:48 vccw kernel: [    1.411038] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Feb 19 05:17:48 vccw kernel: [    1.412061] serio: i8042 KBD port at 0x60,0x64 irq 1
+Feb 19 05:17:48 vccw kernel: [    1.412077] serio: i8042 AUX port at 0x60,0x64 irq 12
+Feb 19 05:17:48 vccw kernel: [    1.412354] mousedev: PS/2 mouse device common for all mice
+Feb 19 05:17:48 vccw kernel: [    1.413034] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Feb 19 05:17:48 vccw kernel: [    1.414017] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Feb 19 05:17:48 vccw kernel: [    1.414170] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Feb 19 05:17:48 vccw kernel: [    1.414196] i2c /dev entries driver
+Feb 19 05:17:48 vccw kernel: [    1.414310] device-mapper: uevent: version 1.0.3
+Feb 19 05:17:48 vccw kernel: [    1.414453] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Feb 19 05:17:48 vccw kernel: [    1.414487] ledtrig-cpu: registered to indicate activity on CPUs
+Feb 19 05:17:48 vccw kernel: [    1.416042] NET: Registered protocol family 10
+Feb 19 05:17:48 vccw kernel: [    1.416419] NET: Registered protocol family 17
+Feb 19 05:17:48 vccw kernel: [    1.416443] Key type dns_resolver registered
+Feb 19 05:17:48 vccw kernel: [    1.416777] microcode: CPU0 sig=0x406c3, pf=0x8, revision=0x0
+Feb 19 05:17:48 vccw kernel: [    1.416851] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Feb 19 05:17:48 vccw kernel: [    1.417175] registered taskstats version 1
+Feb 19 05:17:48 vccw kernel: [    1.417203] Loading compiled-in X.509 certificates
+Feb 19 05:17:48 vccw kernel: [    1.419110] Loaded X.509 cert 'Build time autogenerated kernel key: 01a2b0d0dba8d37a863918580fc16590a7d146c8'
+Feb 19 05:17:48 vccw kernel: [    1.419154] zswap: loaded using pool lzo/zbud
+Feb 19 05:17:48 vccw kernel: [    1.423565] Key type trusted registered
+Feb 19 05:17:48 vccw kernel: [    1.431154] Key type encrypted registered
+Feb 19 05:17:48 vccw kernel: [    1.431174] AppArmor: AppArmor sha1 policy hashing enabled
+Feb 19 05:17:48 vccw kernel: [    1.431182] ima: No TPM chip found, activating TPM-bypass!
+Feb 19 05:17:48 vccw kernel: [    1.431242] evm: HMAC attrs: 0x1
+Feb 19 05:17:48 vccw kernel: [    1.432315]   Magic number: 6:649:264
+Feb 19 05:17:48 vccw kernel: [    1.432534] rtc_cmos rtc_cmos: setting system clock to 2018-02-19 05:17:29 UTC (1519017449)
+Feb 19 05:17:48 vccw kernel: [    1.432693] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Feb 19 05:17:48 vccw kernel: [    1.432696] EDD information not available.
+Feb 19 05:17:48 vccw kernel: [    1.432791] PM: Hibernation image not present or could not be loaded.
+Feb 19 05:17:48 vccw kernel: [    1.575554] Freeing unused kernel memory: 1488K (ffffffff81f45000 - ffffffff820b9000)
+Feb 19 05:17:48 vccw kernel: [    1.575566] Write protecting the kernel read-only data: 14336k
+Feb 19 05:17:48 vccw kernel: [    1.577392] Freeing unused kernel memory: 1752K (ffff88000184a000 - ffff880001a00000)
+Feb 19 05:17:48 vccw kernel: [    1.578293] Freeing unused kernel memory: 112K (ffff880001de4000 - ffff880001e00000)
+Feb 19 05:17:48 vccw kernel: [    1.613671] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.613737] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.615705] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.615914] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.615959] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.616013] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.642713] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.642772] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.642801] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.650440] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 19 05:17:48 vccw kernel: [    1.826824] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 19 05:17:48 vccw kernel: [    1.826976] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Feb 19 05:17:48 vccw kernel: [    1.838729] FUJITSU Extended Socket Network Device Driver - version 1.0 - Copyright (c) 2015 FUJITSU LIMITED
+Feb 19 05:17:48 vccw kernel: [    1.869438] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Feb 19 05:17:48 vccw kernel: [    1.869444] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Feb 19 05:17:48 vccw kernel: [    2.050506] SSE version of gcm_enc/dec engaged.
+Feb 19 05:17:48 vccw kernel: [    2.120503] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Feb 19 05:17:48 vccw kernel: [    2.386853] tsc: Refined TSC clocksource calibration: 1600.297 MHz
+Feb 19 05:17:48 vccw kernel: [    2.386862] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x17113d87124, max_idle_ns: 440795248091 ns
+Feb 19 05:17:48 vccw kernel: [    2.562766] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:a8:df:8b
+Feb 19 05:17:48 vccw kernel: [    2.562780] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Feb 19 05:17:48 vccw kernel: [    2.562852] ahci 0000:00:0d.0: version 3.0
+Feb 19 05:17:48 vccw kernel: [    2.564274] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Feb 19 05:17:48 vccw kernel: [    2.564631] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Feb 19 05:17:48 vccw kernel: [    2.564637] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Feb 19 05:17:48 vccw kernel: [    2.565934] scsi host2: ahci
+Feb 19 05:17:48 vccw kernel: [    2.566375] ata3: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Feb 19 05:17:48 vccw kernel: [    2.882511] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Feb 19 05:17:48 vccw kernel: [    2.889244] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Feb 19 05:17:48 vccw kernel: [    2.889249] ata3.00: 83886080 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Feb 19 05:17:48 vccw kernel: [    2.902419] ata3.00: configured for UDMA/133
+Feb 19 05:17:48 vccw kernel: [    2.902673] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Feb 19 05:17:48 vccw kernel: [    2.903146] sd 2:0:0:0: [sda] 83886080 512-byte logical blocks: (42.9 GB/40.0 GiB)
+Feb 19 05:17:48 vccw kernel: [    2.903264] sd 2:0:0:0: [sda] Write Protect is off
+Feb 19 05:17:48 vccw kernel: [    2.903270] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Feb 19 05:17:48 vccw kernel: [    2.903322] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Feb 19 05:17:48 vccw kernel: [    2.903719] sd 2:0:0:0: Attached scsi generic sg0 type 0
+Feb 19 05:17:48 vccw kernel: [    2.931535]  sda: sda1 sda2 < sda5 >
+Feb 19 05:17:48 vccw kernel: [    2.932198] sd 2:0:0:0: [sda] Attached SCSI disk
+Feb 19 05:17:48 vccw kernel: [    3.120434] e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:8f:6b:90
+Feb 19 05:17:48 vccw kernel: [    3.120444] e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Feb 19 05:17:48 vccw kernel: [    3.126075] e1000 0000:00:08.0 enp0s8: renamed from eth1
+Feb 19 05:17:48 vccw kernel: [    3.134584] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Feb 19 05:17:48 vccw kernel: [    4.924747] floppy0: no floppy controllers found
+Feb 19 05:17:48 vccw kernel: [    4.924875] work still pending
+Feb 19 05:17:48 vccw kernel: [    6.680915] md: linear personality registered for level -1
+Feb 19 05:17:48 vccw kernel: [    6.689160] md: multipath personality registered for level -4
+Feb 19 05:17:48 vccw kernel: [    6.697604] md: raid0 personality registered for level 0
+Feb 19 05:17:48 vccw kernel: [    6.707020] md: raid1 personality registered for level 1
+Feb 19 05:17:48 vccw kernel: [    6.791043] raid6: sse2x1   gen()  1146 MB/s
+Feb 19 05:17:48 vccw kernel: [    6.863588] raid6: sse2x1   xor()  2503 MB/s
+Feb 19 05:17:48 vccw kernel: [    6.943592] raid6: sse2x2   gen()  1475 MB/s
+Feb 19 05:17:48 vccw kernel: [    7.019280] raid6: sse2x2   xor()  2605 MB/s
+Feb 19 05:17:48 vccw kernel: [    7.087210] raid6: sse2x4   gen()  1691 MB/s
+Feb 19 05:17:48 vccw kernel: [    7.154092] raid6: sse2x4   xor()  1830 MB/s
+Feb 19 05:17:48 vccw kernel: [    7.154098] raid6: using algorithm sse2x4 gen() 1691 MB/s
+Feb 19 05:17:48 vccw kernel: [    7.154100] raid6: .... xor() 1830 MB/s, rmw enabled
+Feb 19 05:17:48 vccw kernel: [    7.154103] raid6: using ssse3x2 recovery algorithm
+Feb 19 05:17:48 vccw kernel: [    7.170303] xor: measuring software checksum speed
+Feb 19 05:17:48 vccw kernel: [    7.209947]    prefetch64-sse:  5005.000 MB/sec
+Feb 19 05:17:48 vccw kernel: [    7.273548]    generic_sse: 15466.000 MB/sec
+Feb 19 05:17:48 vccw kernel: [    7.273554] xor: using function: generic_sse (15466.000 MB/sec)
+Feb 19 05:17:48 vccw kernel: [    7.279166] async_tx: api initialized (async)
+Feb 19 05:17:48 vccw kernel: [    7.309669] md: raid6 personality registered for level 6
+Feb 19 05:17:48 vccw kernel: [    7.309675] md: raid5 personality registered for level 5
+Feb 19 05:17:48 vccw kernel: [    7.309678] md: raid4 personality registered for level 4
+Feb 19 05:17:48 vccw kernel: [    7.328599] md: raid10 personality registered for level 10
+Feb 19 05:17:48 vccw kernel: [    7.916672] Btrfs loaded
+Feb 19 05:17:48 vccw kernel: [    8.229579] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Feb 19 05:17:48 vccw kernel: [    9.183985] random: nonblocking pool is initialized
+Feb 19 05:17:48 vccw kernel: [   12.218315] EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Feb 19 05:17:48 vccw kernel: [   12.220279] Loading iSCSI transport class v2.0-870.
+Feb 19 05:17:48 vccw kernel: [   12.366959] iscsi: registered transport (tcp)
+Feb 19 05:17:48 vccw kernel: [   12.852462] RPC: Registered named UNIX socket transport module.
+Feb 19 05:17:48 vccw kernel: [   12.852467] RPC: Registered udp transport module.
+Feb 19 05:17:48 vccw kernel: [   12.852470] RPC: Registered tcp transport module.
+Feb 19 05:17:48 vccw kernel: [   12.852472] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 19 05:17:48 vccw kernel: [   12.940179] iscsi: registered transport (iser)
+Feb 19 05:17:48 vccw kernel: [   14.658590] vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Feb 19 05:17:48 vccw kernel: [   14.815594] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Feb 19 05:17:48 vccw kernel: [   15.000556] [drm] Initialized drm 1.1.0 20060810
+Feb 19 05:17:48 vccw kernel: [   15.081522] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+Feb 19 05:17:48 vccw kernel: [   15.112571] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Feb 19 05:17:48 vccw kernel: [   15.112806] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input6
+Feb 19 05:17:48 vccw kernel: [   15.113102] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Feb 19 05:17:48 vccw kernel: [   15.113106] vboxguest: Successfully loaded version 5.1.24 (interface 0x00010004)
+Feb 19 05:17:48 vccw kernel: [   15.533535] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 60431 usecs (13532 samples)
+Feb 19 05:17:48 vccw kernel: [   15.533543] snd_intel8x0 0000:00:05.0: measured clock 223924 rejected
+Feb 19 05:17:48 vccw kernel: [   15.541785] intel_powerclamp: No package C-state available
+Feb 19 05:17:48 vccw kernel: [   15.633378] intel_rapl: no valid rapl domains found in package 0
+Feb 19 05:17:48 vccw kernel: [   15.893920] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 53810 usecs (12790 samples)
+Feb 19 05:17:48 vccw kernel: [   15.893927] snd_intel8x0 0000:00:05.0: measured clock 237688 rejected
+Feb 19 05:17:48 vccw kernel: [   16.259122] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 55771 usecs (12688 samples)
+Feb 19 05:17:48 vccw kernel: [   16.259131] snd_intel8x0 0000:00:05.0: measured clock 227501 rejected
+Feb 19 05:17:48 vccw kernel: [   16.259136] snd_intel8x0 0000:00:05.0: clocking to 48000
+Feb 19 05:17:48 vccw kernel: [   16.264577] [drm] VRAM 00800000
+Feb 19 05:17:48 vccw kernel: [   16.273775] [TTM] Zone  kernel: Available graphics memory: 508046 kiB
+Feb 19 05:17:48 vccw kernel: [   16.273782] [TTM] Initializing pool allocator
+Feb 19 05:17:48 vccw kernel: [   16.273794] [TTM] Initializing DMA pool allocator
+Feb 19 05:17:48 vccw kernel: [   16.274849] fbcon: vboxdrmfb (fb0) is primary device
+Feb 19 05:17:48 vccw kernel: [   16.537590] Console: switching to colour frame buffer device 100x37
+Feb 19 05:17:48 vccw kernel: [   16.541842] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Feb 19 05:17:48 vccw kernel: [   16.577687] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Feb 19 05:17:48 vccw kernel: [   17.077747] ppdev: user-space parallel port driver
+Feb 19 05:17:48 vccw kernel: [   17.364538] Adding 1048572k swap on /dev/mapper/vagrant--vg-swap_1.  Priority:-1 extents:1 across:1048572k FS
+Feb 19 05:17:48 vccw kernel: [   17.528865] EXT4-fs (sda1): mounting ext2 file system using the ext4 subsystem
+Feb 19 05:17:48 vccw kernel: [   17.557028] EXT4-fs (sda1): mounted filesystem without journal. Opts: (null)
+Feb 19 05:17:48 vccw kernel: [   18.037905] floppy0: no floppy controllers found
+Feb 19 05:17:48 vccw kernel: [   18.731309] audit: type=1400 audit(1519017466.796:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=827 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.731328] audit: type=1400 audit(1519017466.796:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=827 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.731341] audit: type=1400 audit(1519017466.796:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=827 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.731352] audit: type=1400 audit(1519017466.796:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=827 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.783574] audit: type=1400 audit(1519017466.848:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=828 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.783595] audit: type=1400 audit(1519017466.848:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=828 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.783608] audit: type=1400 audit(1519017466.848:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=828 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.783619] audit: type=1400 audit(1519017466.848:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=828 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.789677] audit: type=1400 audit(1519017466.852:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=829 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   18.809316] audit: type=1400 audit(1519017466.872:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=830 comm="apparmor_parser"
+Feb 19 05:17:48 vccw kernel: [   19.530404] IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Feb 19 05:17:48 vccw kernel: [   19.534284] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 19 05:17:48 vccw kernel: [   19.542987] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Feb 19 05:17:48 vccw kernel: [   19.793333] cgroup: new mount options do not match the existing superblock, will be ignored
+Feb 19 05:17:49 vccw kernel: [   21.426540] vboxsf: Successfully loaded version 5.1.24 (interface 0x00010004)
+Feb 19 05:17:50 vccw kernel: [   22.191433] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Feb 19 05:17:50 vccw kernel: [   22.192810] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 19 05:17:50 vccw kernel: [   22.193467] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Feb 19 05:17:53 vccw kernel: [   24.931494] VBoxService 5.1.24 r117012 (verbosity: 0) linux.amd64 (Jul 17 2017 17:16:12) release log
+Feb 19 05:17:53 vccw kernel: [   24.931494] 00:00:00.000276 main     Log opened 2018-02-19T05:17:52.998837000Z
+Feb 19 05:17:53 vccw kernel: [   24.931600] 00:00:00.000484 main     OS Product: Linux
+Feb 19 05:17:53 vccw kernel: [   24.931660] 00:00:00.000545 main     OS Release: 4.4.0-92-generic
+Feb 19 05:17:53 vccw kernel: [   24.931721] 00:00:00.000605 main     OS Version: #115-Ubuntu SMP Thu Aug 10 09:04:33 UTC 2017
+Feb 19 05:17:53 vccw kernel: [   24.931805] 00:00:00.000665 main     Executable: /opt/VBoxGuestAdditions-5.1.24/sbin/VBoxService
+Feb 19 05:17:53 vccw kernel: [   24.931805] 00:00:00.000668 main     Process ID: 1321
+Feb 19 05:17:53 vccw kernel: [   24.931805] 00:00:00.000669 main     Package type: LINUX_64BITS_GENERIC
+Feb 19 05:17:53 vccw kernel: [   24.939611] 00:00:00.008388 main     5.1.24 r117012 started. Verbose level = 0
+Feb 19 05:17:54 vccw kernel: [   26.144331] audit_printk_skb: 12 callbacks suppressed
+Feb 19 05:17:54 vccw kernel: [   26.144338] audit: type=1400 audit(1519017474.208:16): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/1309/status" pid=1309 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=112 ouid=112
+Feb 19 05:17:54 vccw kernel: [   26.144626] audit: type=1400 audit(1519017474.208:17): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=1309 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=112 ouid=0
+Feb 19 05:17:54 vccw kernel: [   26.144854] audit: type=1400 audit(1519017474.208:18): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/1309/status" pid=1309 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=112 ouid=112
+Feb 19 05:18:15 vccw kernel: [   47.330096] IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Feb 19 05:18:15 vccw kernel: [   47.332427] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 19 05:18:15 vccw kernel: [   47.333247] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
